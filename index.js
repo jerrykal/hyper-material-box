@@ -6,6 +6,8 @@ exports.decorateConfig = config => {
   const materialBox = Object.assign(
       {
         scheme: 'solarized dark',
+        backgroundOpacity: 1,
+        backgroundVibrancy: false,
       },
       config.materialBox);
 
@@ -32,6 +34,19 @@ exports.decorateConfig = config => {
   };
   const scheme =
       schemeIndex[materialBox.scheme] || schemeIndex['solarized dark'];
+
+  // Background opacity
+  scheme.backgroundColor = colorJS(scheme.backgroundColor)
+                               .alpha(materialBox.backgroundOpacity)
+                               .string();
+  // Background vibrancy
+  if (materialBox.backgroundVibrancy === true) {
+    if (colorJS(scheme.backgroundColor).light() === true) {
+      exports.onWindow = browserWindow => browserWindow.setVibrancy('light');
+    } else {
+      exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
+    }
+  }
 
   return Object.assign({}, config, {
     colors: scheme.colors,
