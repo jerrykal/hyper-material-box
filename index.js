@@ -33,8 +33,9 @@ exports.decorateConfig = config => {
     'solarized dark': require('./scheme/solarized_dark.js'),
     'solarized light': require('./scheme/solarized_light.js'),
   };
-  const scheme =
-      schemeIndex[materialBox.scheme] || schemeIndex['solarized dark'];
+  const scheme = Object.assign(
+      schemeIndex[materialBox.scheme] || schemeIndex['solarized dark'],
+      config.materialBox.user);
 
   // Background opacity
   scheme.backgroundColor = colorJS(scheme.backgroundColor)
