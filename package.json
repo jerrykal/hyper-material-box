@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ooJerryLeeoo/hyper-material-box/issues"
   },
-  "homepage": "https://github.com/ooJerryLeeoo/hyper-material-box#readme"
+  "homepage": "https://github.com/ooJerryLeeoo/hyper-material-box#readme",
+  "dependencies": {
+    "color": "^1.0.3"
+  }
 }

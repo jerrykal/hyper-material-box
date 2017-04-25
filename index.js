@@ -1,5 +1,7 @@
 'use strict';
 
+const colorJS = require('color');
+
 exports.decorateConfig = config => {
   const materialBox = Object.assign(
       {
@@ -15,8 +17,8 @@ exports.decorateConfig = config => {
         borderColor: config.borderColor,
         cursorColor: config.cursorColor,
         accentColor: config.colors.blue,
-        inactiveTabTitleColor:
-            config.inactiveTabTitleColor || config.foregroundColor,
+        inactiveTabTitleColor: config.inactiveTabTitleColor ||
+            colorJS(config.foregroundColor).alpha(0.3).string(),
         activeTabTitleColor:
             config.activeTabTitleColor || config.foregroundColor,
       },
