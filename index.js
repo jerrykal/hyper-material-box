@@ -8,6 +8,7 @@ exports.decorateConfig = config => {
         scheme: 'solarized dark',
         backgroundOpacity: 1,
         backgroundVibrancy: false,
+        closeOnTheLeft: false,
       },
       config.materialBox);
 
@@ -80,6 +81,11 @@ exports.decorateConfig = config => {
       overflow: hidden;
       max-width: 100%;
       padding: 0px 24px 0 8px;
+    }
+    ${
+      materialBox.closeOnTheLeft === true ?
+          '.tab_tab .tab_icon { left: 7px; right: initial; }' :
+          ''
     }
     ${config.css || ''}
     `,
