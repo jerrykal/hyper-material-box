@@ -82,6 +82,12 @@ exports.decorateConfig = config => {
       max-width: 100%;
       padding: 0px 24px 0 8px;
     }
+    .tabs_nav .tab_tab .tab_icon {
+      left: 5px;
+      right: auto;
+      top: 4px;
+      border-radius: 2px;
+    }
     ${
       materialBox.closeOnTheLeft === true ?
           '.tab_tab .tab_icon { left: 7px; right: initial; }' :
