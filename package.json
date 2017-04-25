@@ -1,0 +1,19 @@
+{
+  "name": "hyper-material-box",
+  "version": "0.0.0",
+  "description": "The most hackable theme for your favorite terminal Hyper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ooJerryLeeoo/hyper-material-box.git"
+  },
+  "author": "Jerry Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ooJerryLeeoo/hyper-material-box/issues"
+  },
+  "homepage": "https://github.com/ooJerryLeeoo/hyper-material-box#readme"
+}
