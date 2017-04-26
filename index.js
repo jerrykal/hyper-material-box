@@ -33,6 +33,9 @@ exports.decorateConfig = config => {
   const schemeIndex = {
     // material-box schemes
     'dracula': require('./scheme/dracula.js'),
+    'material-darker': require('./scheme/material-darker.js'),
+    'material-lighter': require('./scheme/material-lighter.js'),
+    'material': require('./scheme/material.js'),
     'monokai': require('./scheme/monokai.js'),
     'solarized-dark': require('./scheme/solarized_dark.js'),
     'solarized-light': require('./scheme/solarized_light.js'),
