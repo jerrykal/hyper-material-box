@@ -3,6 +3,25 @@
   "version": "0.0.0",
   "description": "The most hackable theme for your favorite terminal Hyper",
   "main": "index.js",
+  "keywords": [
+    "color scheme",
+    "hackable",
+    "hyper.app",
+    "hyper",
+    "hyperterm",
+    "material darker",
+    "material lighter",
+    "material",
+    "solarized dark",
+    "solarized light",
+    "solarized",
+    "theme",
+    "tomorrow night blue",
+    "tomorrow night bright",
+    "tomorrow night eighties",
+    "tomorrow night",
+    "tomorrow"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
