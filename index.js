@@ -171,9 +171,6 @@ exports.decorateConfig = config => {
     ${config.css || ''}
     `,
     termCSS: `
-    .cursor-node[focus=true]:not([moving]) {
-      mix-blend-mode: difference;
-    }
     ::-webkit-scrollbar {
       width: 2px;
     }
