@@ -5,7 +5,7 @@ const colorJS = require('color');
 exports.decorateConfig = config => {
   const materialBox = Object.assign(
       {
-        scheme: 'solarized dark',
+        scheme: 'solarized-dark',
         backgroundOpacity: 1,
         backgroundVibrancy: false,
         closeOnTheLeft: false,
@@ -17,8 +17,8 @@ exports.decorateConfig = config => {
         colors: config.colors,
         backgroundColor: config.backgroundColor,
         foregroundColor: config.foregroundColor,
-        borderColor: config.borderColor,
         cursorColor: config.cursorColor,
+        borderColor: config.borderColor,
         accentColor: config.colors.blue,
         inactiveTabTitleColor: config.inactiveTabTitleColor ||
             colorJS(config.foregroundColor).alpha(0.3).string(),
@@ -30,11 +30,14 @@ exports.decorateConfig = config => {
   // Get scheme
   const schemeIndex = {
     'user': materialBox.user,
-    'solarized dark': require('./scheme/solarized_dark.js'),
-    'solarized light': require('./scheme/solarized_light.js'),
+    'solarized-dark': require('./scheme/solarized_dark.js'),
+    'solarized-light': require('./scheme/solarized_light.js'),
+    'monokai': require('./scheme/monokai.js'),
+    'dracula': require('./scheme/dracula.js'),
   };
   const scheme = Object.assign(
-      schemeIndex[materialBox.scheme] || schemeIndex['solarized dark'],
+      schemeIndex[materialBox.scheme.toLowerCase()] ||
+          schemeIndex['solarized-dark'],
       (config.materialBox ? config.materialBox.user : {}));
 
   // Background opacity
