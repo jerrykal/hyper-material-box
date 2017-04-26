@@ -9,6 +9,8 @@ exports.decorateConfig = config => {
         backgroundOpacity: 1,
         backgroundVibrancy: false,
         closeOnTheLeft: false,
+        activeTabStyle: 'underline',
+        lightEffect: false,
       },
       config.materialBox);
 
@@ -53,6 +55,66 @@ exports.decorateConfig = config => {
     }
   }
 
+  // Active tab style
+  const lightEffect =
+      (materialBox.lightEffect ? `box-shadow: 0 0 10px ${scheme.accentColor};` :
+                                 '');
+  let tabStyle = '';
+  switch (materialBox.activeTabStyle.toLowerCase()) {
+    case 'preline':
+      tabStyle = `
+        .tab_tab::after {
+          content: "";
+          position: absolute;
+          pointer-events: none;
+          top: 0;
+          bottom: -1px;
+          left: 0;
+          width: 2px;
+          height: inherit;
+          background: ${scheme.accentColor};
+          opacity: 0;
+          transition: opacity .16s;
+          z-index: 1;
+          ${lightEffect}
+        }
+        .tab_tab.tab_active::after {
+          opacity: 1;
+          transition-duration: .32s;
+          ${lightEffect}
+        }`;
+      break;
+    case 'overline':
+      tabStyle = `
+      .tab_tab.tab_active {
+        border-top: 2px solid ${scheme.accentColor} !important;
+      }`;
+      break;
+    case 'filled':
+      tabStyle = `
+        .tab_tab.tab_active,
+        .tabs_title {
+          background: ${scheme.accentColor};
+          ${lightEffect}
+        }`;
+      break;
+    default:
+      tabStyle = `
+        .tab_tab::before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 2px;
+          background-color: ${scheme.accentColor};
+          transform: scaleX(0);
+          transition: none;
+          ${lightEffect}
+        }`;
+      break;
+  }
+
   return Object.assign({}, config, {
     colors: scheme.colors,
     backgroundColor: scheme.backgroundColor,
@@ -92,6 +154,7 @@ exports.decorateConfig = config => {
       top: 4px;
       border-radius: 2px;
     }
+    ${tabStyle}
     ${
       materialBox.closeOnTheLeft === true ?
           '.tab_tab .tab_icon { left: 7px; right: initial; }' :
