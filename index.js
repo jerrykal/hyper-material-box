@@ -31,11 +31,19 @@ exports.decorateConfig = config => {
 
   // Get scheme
   const schemeIndex = {
-    'user': materialBox.user,
+    // material-box schemes
+    'dracula': require('./scheme/dracula.js'),
+    'monokai': require('./scheme/monokai.js'),
     'solarized-dark': require('./scheme/solarized_dark.js'),
     'solarized-light': require('./scheme/solarized_light.js'),
-    'monokai': require('./scheme/monokai.js'),
-    'dracula': require('./scheme/dracula.js'),
+    'tomorrow-night-blue': require('./scheme/tomorrow-night-blue.js'),
+    'tomorrow-night-bright': require('./scheme/tomorrow-night-bright.js'),
+    'tomorrow-night-eighties': require('./scheme/tomorrow-night-eighties.js'),
+    'tomorrow-night': require('./scheme/tomorrow-night.js'),
+    'tomorrow': require('./scheme/tomorrow.js'),
+
+    // user-defined scheme
+    'user': materialBox.user,
   };
   const scheme = Object.assign(
       schemeIndex[materialBox.scheme.toLowerCase()] ||
