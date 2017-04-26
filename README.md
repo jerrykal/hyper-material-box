@@ -2,6 +2,8 @@
 
 The most hackable theme for your favorite terminal :zap:**Hyper**:zap:
 
+![solarized_dark](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/solarized_dark.png)
+
 ## Let's jump right in
 
 All you need is two simple steps !!
@@ -38,6 +40,8 @@ For example, if you like the `tomorrow-night` color scheme, you can add the foll
 ```javascript
 scheme: 'tomorrow-night',
 ```
+
+![tomorrow_night](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/tomorrow_night.png)
 
 ##### User
 
@@ -90,6 +94,21 @@ You can change the Active tab style by set the `activeTabStyle` to `preline`, `o
 activeTabStyle: 'preline',
 ```
 
+![preline_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/preline_tab_style.png)
+
+#### Accent color
+
+You can change the accent color by set the `user: { accentColor }` to another color:
+
+``` javascript
+// for example if you like read accent color:
+user: {
+  accentColor: 'red',
+}
+```
+
+![accent_color_red](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/accent_color_red.png)
+
 ##### Light effect
 
 > The `overline` active tab styles doesn't support light effect.
@@ -100,6 +119,8 @@ You can enable the light effect by set the `lightEffect` to `true`:
 lightEffect: true,
 ```
 
+![light_effect](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/light_effect.png)
+
 #### Background opacity
 
 > The default background opacity is `1.0`.
@@ -107,8 +128,10 @@ lightEffect: true,
 You can enable the background opacity by set the `backgroundOpacity` to `0.1` ~ `0.9`:
 
 ``` javascript
-backgroundOpacity: 0.7,
+backgroundOpacity: 0.5,
 ```
+
+![background_opacity](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/background_opacity.png)
 
 ##### Background Vibrancy
 
@@ -119,6 +142,8 @@ You can enable the background vibrancy by set the `backgroundVibrancy` to `true`
 ``` javascript
 backgroundVibrancy: true,
 ```
+
+![background_vibrancy](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/background_vibrancy.png)
 
 ### Other
 
