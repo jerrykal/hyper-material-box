@@ -146,13 +146,13 @@ module.exports = {
 
 > highlight active tab is disable by default
 
-You can enable the highlight active tab by set `highlightActive` to `true`:
+You can enable the highlight active tab by set `highlightActiveTab` to `true`:
 
 ``` javascript
 module.exports = {
   config: {
     materialBox: {
-      highlightActive: true,
+      highlightActiveTab: true,
     }
   }
 }

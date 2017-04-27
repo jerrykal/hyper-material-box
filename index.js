@@ -12,7 +12,7 @@ exports.decorateConfig = config => {
         activeTabStyle: 'underline',
         lightEffect: false,
         autoHideTitle: false,
-        highlightActive: false,
+        highlightActiveTab: false,
       },
       config.materialBox);
 
@@ -183,7 +183,7 @@ exports.decorateConfig = config => {
           ''
     }
     ${
-      materialBox.highlightActive === true ? `
+      materialBox.highlightActiveTab === true ? `
       .tab_active {
         background-color: ${
                             colorJS(scheme.backgroundColor).dark() === true ?
@@ -192,7 +192,7 @@ exports.decorateConfig = config => {
                           };
 
       }` :
-                                             ''
+                                                ''
     }
     ${tabStyle}
     ${config.css || ''}
