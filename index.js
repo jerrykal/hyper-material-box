@@ -11,6 +11,7 @@ exports.decorateConfig = config => {
         closeOnTheLeft: false,
         activeTabStyle: 'underline',
         lightEffect: false,
+        autoHideTitle: false,
       },
       config.materialBox);
 
@@ -166,6 +167,11 @@ exports.decorateConfig = config => {
     ${
       materialBox.closeOnTheLeft === true ?
           '.tab_tab .tab_icon { left: 7px; right: initial; }' :
+          ''
+    }
+    ${
+      materialBox.autoHideTitle === true ?
+          '.tabs_title { display: none !important; }' :
           ''
     }
     ${config.css || ''}
