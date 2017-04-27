@@ -74,6 +74,8 @@ exports.decorateConfig = config => {
                                  '');
   let tabStyle = '';
   switch (materialBox.activeTabStyle.toLowerCase()) {
+    case 'none':
+      break;
     case 'preline':
       tabStyle = `
         .tab_tab::after {

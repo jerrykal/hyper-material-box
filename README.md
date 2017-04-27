@@ -104,7 +104,7 @@ module.exports = {
 
 > The default active tab style is `underline`.
 
-You can change the Active tab style by set the `activeTabStyle` to `preline`, `overline` or `filled`:
+You can change the Active tab style by set the `activeTabStyle` to `preline`, `overline`, `filled` or `none`:
 
 ``` javascript
 module.exports = {
@@ -141,6 +141,18 @@ module.exports = {
 ```
 
 ![filled_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/filled_tab_style.png)
+
+``` javascript
+module.exports = {
+  config: {
+    materialBox: {
+      activeTabStyle: 'none',
+    }
+  }
+}
+```
+
+![none_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/none_tab_style.png)
 
 ##### Highlight active tab
 
