@@ -2,7 +2,7 @@
 
 Thank you for contributing on [hyper-material-box](https://github.com/ooJerryLeeoo/hyper-material-box), before you submit a new pull request,  
 here's some tips and tricks you need to know :sunglasses:  
-If you have any problem, feel free to [submit a new issue]((https://github.com/ooJerryLeeoo/hyper-material-box/issues/new).
+If you have any problem, feel free to [submit a new issue](https://github.com/ooJerryLeeoo/hyper-material-box/issues/new).
 
 ## Let's jump in
 
