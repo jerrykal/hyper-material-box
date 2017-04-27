@@ -164,6 +164,14 @@ exports.decorateConfig = config => {
     .tabs_nav .tab_tab .tab_icon {
       border-radius: 2px;
     }
+    .term_fit:not(.term_term) {
+      opacity: 0.6;
+    }
+    .term_fit.term_active {
+      opacity: 1;
+      transition: opacity 0.12s ease-in-out;
+      will-change: opacity;
+    }
     ${
       materialBox.closeOnTheLeft === true ?
           '.tab_tab .tab_icon { left: 7px; right: initial; }' :
@@ -190,6 +198,12 @@ exports.decorateConfig = config => {
     ${config.css || ''}
     `,
     termCSS: `
+    ${
+      // tomorrow color scheme bug doesn't support color difference cursor
+      materialBox.scheme !== 'tomorrow' ?
+          '.cursor-node[focus=true] { mix-blend-mode: difference; }' :
+          ''
+    }
     ::-webkit-scrollbar {
       width: 2px;
     }
