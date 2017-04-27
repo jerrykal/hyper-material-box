@@ -12,6 +12,7 @@ exports.decorateConfig = config => {
         activeTabStyle: 'underline',
         lightEffect: false,
         autoHideTitle: false,
+        highlightActive: false,
       },
       config.materialBox);
 
@@ -163,7 +164,6 @@ exports.decorateConfig = config => {
     .tabs_nav .tab_tab .tab_icon {
       border-radius: 2px;
     }
-    ${tabStyle}
     ${
       materialBox.closeOnTheLeft === true ?
           '.tab_tab .tab_icon { left: 7px; right: initial; }' :
@@ -174,6 +174,19 @@ exports.decorateConfig = config => {
           '.tabs_title { display: none !important; }' :
           ''
     }
+    ${
+      materialBox.highlightActive === true ? `
+      .tab_active {
+        background-color: ${
+                            colorJS(scheme.backgroundColor).dark() === true ?
+                                colorJS(scheme.backgroundColor).lighten(0.3) :
+                                colorJS(scheme.backgroundColor).darken(0.1)
+                          };
+
+      }` :
+                                             ''
+    }
+    ${tabStyle}
     ${config.css || ''}
     `,
     termCSS: `
