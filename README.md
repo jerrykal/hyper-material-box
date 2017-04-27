@@ -1,5 +1,7 @@
 # hyper-material-box
 
+[![npm](https://img.shields.io/npm/v/hyper-material-box.svg)]() [![npm](https://img.shields.io/npm/dm/hyper-material-box.svg)]()
+
 The most hackable theme for your favorite terminal **Hyper**
 
 ![solarized_dark](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/solarized_dark.png)
@@ -218,6 +220,8 @@ module.exports = {
 
 #### Close on the left
 
+> left close button is disable by default
+
 If you like left close button more than right close button, you can set the `closeOnTheLeft` to `true`:
 
 ```javascript
@@ -225,6 +229,22 @@ module.exports = {
   config: {
     materialBox: {
       closeOnTheLeft: true,
+    }
+  }
+}
+```
+
+#### Auto hide title
+
+> auto hide title is disable by default
+
+Hide title when the window only has one tab:
+
+``` javascript
+module.exports = {
+  config: {
+    materialBox: {
+      autoHideTitle: true,
     }
   }
 }
@@ -246,6 +266,7 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 :zap: The `overline` active tab style inspired by [pauldariye/hyper-midnight](https://github.com/pauldariye/hyper-midnight).  
 :zap: The `light effect` inspired by [simeydotme/hyperterm-gooey](https://github.com/simeydotme/hyperterm-gooey)  
 :zap: The `left close button` inspired by [jhen0409/hyperterm-close-on-left](https://github.com/jhen0409/hyperterm-close-on-left)  
+:zap: The `auto hide title` inspired by [sindresorhus/hyper-hide-title](https://github.com/sindresorhus/hyper-hide-title)  
 
 :heart: **Thank you guys, you guys are all amazing !!!** :heart:
 
