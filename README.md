@@ -142,7 +142,25 @@ module.exports = {
 
 ![filled_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/filled_tab_style.png)
 
-#### Accent color
+##### Highlight active tab
+
+> highlight active tab is disable by default
+
+You can enable the highlight active tab by set `highlightActive` to `true`:
+
+``` javascript
+module.exports = {
+  config: {
+    materialBox: {
+      highlightActive: true,
+    }
+  }
+}
+```
+
+![highlight_active_tab](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/highlight_active_tab.png)
+
+##### Accent color
 
 You can change the accent color by set the `user: { accentColor }` to another color:
 
@@ -156,7 +174,6 @@ module.exports = {
     }
   }
 }
-
 ```
 
 ![accent_color_red](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/accent_color_red.png)
@@ -175,7 +192,6 @@ module.exports = {
     }
   }
 }
-
 ```
 
 ![light_effect](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/light_effect.png)
@@ -218,11 +234,11 @@ module.exports = {
 
 ### Other
 
-#### Close on the left
+#### Left close button
 
 > left close button is disable by default
 
-If you like left close button more than right close button, you can set the `closeOnTheLeft` to `true`:
+If you like the left close button, you can set the `closeOnTheLeft` to `true`:
 
 ```javascript
 module.exports = {
