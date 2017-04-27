@@ -1,6 +1,6 @@
 # hyper-material-box
 
-The most hackable theme for your favorite terminal :zap:**Hyper**:zap:
+The most hackable theme for your favorite terminal **Hyper**
 
 ![solarized_dark](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/solarized_dark.png)
 
@@ -10,10 +10,12 @@ All you need is two simple steps !!
 
 ### Installation
 
-Just add this script into your `.hyper.js`:
+Just add the following script to your `.hyper.js`:
 
 ``` javascript
-plugins: [ 'hyper-material-box' ],
+module.exports = {
+  plugins: [ 'hyper-material-box' ],
+}
 ```
 
 Restart your `Hyper.app`.  
@@ -21,7 +23,7 @@ Done :tada:
 
 ### Config
 
-You can add following config to your `module.exports = { config: { materialBox: { ... } } }` section.
+You can add the following scripts to your `.hyper.js`, if you like what you :eyes:.
 
 #### Color cheme
 
@@ -38,7 +40,13 @@ Currently, we provide our user over **12** beautiful color scheme:
 For example, if you like the `tomorrow-night` color scheme, you can add the following script:
 
 ```javascript
-scheme: 'tomorrow-night',
+module.exports = {
+  config: {
+    materialBox: {
+      scheme: 'tomorrow-night',
+    }
+  }
+}
 ```
 
 ![tomorrow_night](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/tomorrow_night.png)
@@ -49,39 +57,45 @@ If your favorite color scheme isn't in the list, you can create a new scheme by 
 for example you can add the following script instead adding `scheme: 'tomorrow-night'`:
 
 ``` javascript
-user: {
- colors : {
-   black : '#1D1F21',
-   red : '#CC6666',
-   green : '#B5BD68',
-   yellow : '#F0C674',
-   blue : '#81A2BE',
-   magenta : '#B294BB',
-   cyan : '#8ABEB7',
-   white : '#C5C8C6',
-   lightBlack : '#969896',
-   lightRed : '#CC6666',
-   lightGreen : '#B5BD68',
-   lightYellow : '#F0C674',
-   lightBlue : '#81A2BE',
-   lightMagenta : '#B294BB',
-   lightCyan : '#8ABEB7',
-   lightWhite : '#C5C8C6',
- },
+module.exports = {
+  config: {
+    materialBox: {
+      user: {
+        colors : {
+          black : '#1D1F21',
+          red : '#CC6666',
+          green : '#B5BD68',
+          yellow : '#F0C674',
+          blue : '#81A2BE',
+          magenta : '#B294BB',
+          cyan : '#8ABEB7',
+          white : '#C5C8C6',
+          lightBlack : '#969896',
+          lightRed : '#CC6666',
+          lightGreen : '#B5BD68',
+          lightYellow : '#F0C674',
+          lightBlue : '#81A2BE',
+          lightMagenta : '#B294BB',
+          lightCyan : '#8ABEB7',
+          lightWhite : '#C5C8C6',
+        },
 
- // Default
- backgroundColor : '#1D1F21',
- foregroundColor : '#C5C8C6',
- cursorColor : '#C5C8C6',
- borderColor : 'transparent',
+        // Default
+        backgroundColor : '#1D1F21',
+        foregroundColor : '#C5C8C6',
+        cursorColor : '#C5C8C6',
+        borderColor : 'transparent',
 
- // Accent color
- accentColor : '#F2777A',
+        // Accent color
+        accentColor : '#F2777A',
 
- // Other
- inactiveTabTitleColor : 'rgba(255, 255, 255, 0.2)',
- activeTabTitleColor : '#C5C8C6',
-};
+        // Other
+        inactiveTabTitleColor : 'rgba(255, 255, 255, 0.2)',
+        activeTabTitleColor : '#C5C8C6',
+      };
+    }
+  }
+}
 ```
 
 #### Active tab style
@@ -91,20 +105,56 @@ user: {
 You can change the Active tab style by set the `activeTabStyle` to `preline`, `overline` or `filled`:
 
 ``` javascript
-activeTabStyle: 'preline',
+module.exports = {
+  config: {
+    materialBox: {
+      activeTabStyle: 'preline',
+    }
+  }
+}
 ```
 
 ![preline_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/preline_tab_style.png)
+
+``` javascript
+module.exports = {
+  config: {
+    materialBox: {
+      activeTabStyle: 'overline',
+    }
+  }
+}
+```
+
+![overline_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/overline_tab_style.png)
+
+``` javascript
+module.exports = {
+  config: {
+    materialBox: {
+      activeTabStyle: 'filled',
+    }
+  }
+}
+```
+
+![filled_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/filled_tab_style.png)
 
 #### Accent color
 
 You can change the accent color by set the `user: { accentColor }` to another color:
 
 ``` javascript
-// for example if you like read accent color:
-user: {
-  accentColor: 'red',
+module.exports = {
+  config: {
+    materialBox: {
+      user: {
+        accentColor: 'red',
+      }
+    }
+  }
 }
+
 ```
 
 ![accent_color_red](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/accent_color_red.png)
@@ -116,7 +166,14 @@ user: {
 You can enable the light effect by set the `lightEffect` to `true`:
 
 ``` javascript
-lightEffect: true,
+module.exports = {
+  config: {
+    materialBox: {
+      lightEffect: true,
+    }
+  }
+}
+
 ```
 
 ![light_effect](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/light_effect.png)
@@ -125,22 +182,34 @@ lightEffect: true,
 
 > The default background opacity is `1.0`.
 
-You can enable the background opacity by set the `backgroundOpacity` to `0.1` ~ `0.9`:
+You can change the background opacity by set the `backgroundOpacity` to `0.1` ~ `0.9`:
 
 ``` javascript
-backgroundOpacity: 0.5,
+module.exports = {
+  config: {
+    materialBox: {
+      backgroundOpacity: 0.5,
+    }
+  }
+}
 ```
 
 ![background_opacity](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/background_opacity.png)
 
 ##### Background Vibrancy
 
-> Background vibrancy only available when background opacity is enabled
+> Background vibrancy only available when background opacity value is between 0.1 ~ 0.9
 
 You can enable the background vibrancy by set the `backgroundVibrancy` to `true`:
 
 ``` javascript
-backgroundVibrancy: true,
+module.exports = {
+  config: {
+    materialBox: {
+      backgroundVibrancy: true,
+    }
+  }
+}
 ```
 
 ![background_vibrancy](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/background_vibrancy.png)
@@ -152,7 +221,13 @@ backgroundVibrancy: true,
 If you like left close button more than right close button, you can set the `closeOnTheLeft` to `true`:
 
 ```javascript
-closeOnTheLeft: true,
+module.exports = {
+  config: {
+    materialBox: {
+      closeOnTheLeft: true,
+    }
+  }
+}
 ```
 
 ## Contributing to hyper-material-box
