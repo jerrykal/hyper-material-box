@@ -55,6 +55,8 @@ module.exports = {
 
 ##### User
 
+> You can override the default color scheme with the `user` section
+
 If your favorite color scheme isn't in the list, you can create a new scheme by yourself,  
 for example you can add the following script instead adding `scheme: 'tomorrow-night'`:
 
