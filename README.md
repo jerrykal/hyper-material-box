@@ -94,7 +94,7 @@ module.exports = {
         // Other
         inactiveTabTitleColor : 'rgba(255, 255, 255, 0.2)',
         activeTabTitleColor : '#C5C8C6',
-      };
+      }
     }
   }
 }
