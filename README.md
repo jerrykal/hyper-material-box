@@ -92,7 +92,7 @@ module.exports = {
         // Accent color
         accentColor : '#F2777A',
 
-        // Other (optional. it will be override by foregroundColor)
+        // Other (optional, it will be override by foregroundColor)
         inactiveTabTitleColor : 'rgba(255, 255, 255, 0.2)',
         activeTabTitleColor : '#C5C8C6',
 
