@@ -31,7 +31,7 @@ You can add the following scripts to your `.hyper.js`, if you like what you :eye
 
 > The default color scheme is `solarized-dark`.
 
-Currently, we provide our user over **12** beautiful color scheme:
+Currently, we provide our user over **14** beautiful color scheme:
 
 * `solarized-dark` and `solarized-light`
 * `tomorrow`, `tomorrow-night`, `tomorrow-night-eighties`, `tomorrow-night-bright` and `tomorrow-night-blue`
