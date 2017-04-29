@@ -35,9 +35,8 @@ Currently, we provide our user over **12** beautiful color scheme:
 
 * `solarized-dark` and `solarized-light`
 * `tomorrow`, `tomorrow-night`, `tomorrow-night-eighties`, `tomorrow-night-bright` and `tomorrow-night-blue`
-* `material`, `material-darker`, `material-lighter`
-* `monokai`
-* `dracula`
+* `material`, `material-darker` and `material-lighter`
+* `monokai`, `dracula`, `predawn` and `matrix`
 
 For example, if you like the `tomorrow-night` color scheme, you can add the following script:
 
@@ -55,7 +54,7 @@ module.exports = {
 
 ##### User
 
-> You can override the default color scheme with the `user` section
+> You can override the default color scheme with the `user` section.
 
 If your favorite color scheme isn't in the list, you can create a new scheme by yourself,  
 for example you can add the following script instead adding `scheme: 'tomorrow-night'`:
@@ -93,9 +92,13 @@ module.exports = {
         // Accent color
         accentColor : '#F2777A',
 
-        // Other
+        // Other (optional. it will be override by foregroundColor)
         inactiveTabTitleColor : 'rgba(255, 255, 255, 0.2)',
         activeTabTitleColor : '#C5C8C6',
+
+        // css (optional)
+        css: '',
+        termCSS: '',
       }
     }
   }
@@ -292,6 +295,7 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 :zap: The `Tomorrow` color scheme inspired by [chriskempson/tomorrow-theme](https://github.com/chriskempson/tomorrow-theme)  
 :zap: The `dracula` color scheme inspired by [Dracula — A dark theme for Atom, Alfred, Brackets, Emacs, iTerm ...](https://draculatheme.com/)  
 :zap: The `monokai` color scheme inspired by the most popular color scheme for Sublime Text  
+:zap: The `predawn` color scheme inspired by [jamiewilson/predawn-hyperterm](https://github.com/jamiewilson/predawn-hyperterm)
 :zap: The `preline` active tab style inspired by [Kikobeats/hyper-flat](https://github.com/kikobeats/hyper-flat).  
 :zap: The `overline` active tab style inspired by [pauldariye/hyper-midnight](https://github.com/pauldariye/hyper-midnight).  
 :zap: The `light effect` inspired by [simeydotme/hyperterm-gooey](https://github.com/simeydotme/hyperterm-gooey)  

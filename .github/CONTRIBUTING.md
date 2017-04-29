@@ -53,9 +53,13 @@ module.exports = {
   // Accent color
   accentColor: '...',
 
-  // Other
+  // Other (optional, it will be override by foregroundColor)
   inactiveTabTitleColor: 'rgba(255, 255, 255, 0.2)',
   activeTabTitleColor: '...',
+
+  // css (optional)
+  css: '...',
+  termCSS: '...',
 };
 ```
 3. Add your color scheme to the `schemeIndex` under `index.js` (Please insert it according to the **ALPHABETICAL** order, and don't move the user section)
