@@ -295,7 +295,8 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 :zap: The `Tomorrow` color scheme inspired by [chriskempson/tomorrow-theme](https://github.com/chriskempson/tomorrow-theme)  
 :zap: The `dracula` color scheme inspired by [Dracula — A dark theme for Atom, Alfred, Brackets, Emacs, iTerm ...](https://draculatheme.com/)  
 :zap: The `monokai` color scheme inspired by the most popular color scheme for Sublime Text  
-:zap: The `predawn` color scheme inspired by [jamiewilson/predawn-hyperterm](https://github.com/jamiewilson/predawn-hyperterm)
+:zap: The `predawn` color scheme inspired by [jamiewilson/predawn-hyperterm](https://github.com/jamiewilson/predawn-hyperterm)  
+:zap: The `matrix` color scheme inspired by [giuseppeg/hyperterm-green](https://github.com/giuseppeg/hyperterm-green)  
 :zap: The `preline` active tab style inspired by [Kikobeats/hyper-flat](https://github.com/kikobeats/hyper-flat).  
 :zap: The `overline` active tab style inspired by [pauldariye/hyper-midnight](https://github.com/pauldariye/hyper-midnight).  
 :zap: The `light effect` inspired by [simeydotme/hyperterm-gooey](https://github.com/simeydotme/hyperterm-gooey)  
