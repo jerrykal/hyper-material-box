@@ -203,11 +203,8 @@ exports.decorateConfig = config => {
     ${config.css || ''}
     `,
     termCSS: `
-    ${
-      // tomorrow color scheme bug doesn't support color difference cursor
-      materialBox.scheme !== 'tomorrow' ?
-          '.cursor-node[focus=true] { mix-blend-mode: difference; }' :
-          ''
+    .cursor-node[focus=true] {
+      mix-blend-mode: difference;
     }
     ::-webkit-scrollbar {
       width: 2px;
