@@ -2,7 +2,7 @@
 
 module.exports = {
   colors: {
-    black: '#00FF00',
+    black: '#000000',
     red: '#00FF00',
     green: '#00FF00',
     yellow: '#00FF00',
@@ -10,7 +10,7 @@ module.exports = {
     magenta: '#00FF00',
     cyan: '#00FF00',
     white: '#00FF00',
-    lightBlack: '#00FF00',
+    lightBlack: '#000000',
     lightRed: '#00FF00',
     lightGreen: '#00FF00',
     lightYellow: '#00FF00',
@@ -34,14 +34,10 @@ module.exports = {
   activeTabTitleColor: '#00FF00',
 
   // css
-  css: `
-  body {
-    background-image: linear-gradient(rgba(0, 255, 0, .15) 7%, transparent 0%);
-    background-size: 100% 5px;
-  }`,
+  css: '',
   termCSS: `
   x-screen {
     background-color: transparent !important;
-    text-shadow: 0 0 5px rgb(0, 255, 0);
+    text-shadow: 0 0 5px #00FF00;
   }`,
 };
