@@ -139,6 +139,7 @@ exports.decorateConfig = config => {
     borderColor: scheme.borderColor,
     cursorColor: scheme.cursorColor,
     css: `
+    ${config.css || ''}
     .tab_tab {
       border: none;
       color: ${scheme.inactiveTabTitleColor};
@@ -200,9 +201,9 @@ exports.decorateConfig = config => {
     }
     ${tabStyle}
     ${scheme.css || ''}
-    ${config.css || ''}
     `,
     termCSS: `
+    ${config.termCSS || ''}
     .cursor-node[focus=true] {
       mix-blend-mode: difference;
     }
@@ -215,7 +216,6 @@ exports.decorateConfig = config => {
     }
     x-screen x-row { font-variant-ligatures: contextual; }
     ${scheme.termCSS || ''}
-    ${config.termCSS || ''}
     `,
   });
 };
