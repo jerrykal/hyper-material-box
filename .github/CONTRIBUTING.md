@@ -19,7 +19,7 @@ If you have any problem, feel free to [submit a new issue](https://github.com/oo
 
 If you want to share your Amazing color scheme on [hyper-material-box](https://github.com/ooJerryLeeoo/hyper-material-box), you need to make sure you've done the following steps:
 
-1. Create a new file name `your_scheme_name.js` under `scheme` folder
+1. Create a new file name `your-scheme-name.js` under `scheme` folder
 2. Write your color scheme with the following format:
 ``` javascript
 'use strict';
