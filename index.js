@@ -34,11 +34,11 @@ exports.decorateConfig = config => {
   // Get scheme
   const schemeIndex = {
     // material-box schemes
+    'base16-green-screen': require('./scheme/base16-green-screen.js'),
     'dracula': require('./scheme/dracula.js'),
     'material': require('./scheme/material.js'),
     'material-darker': require('./scheme/material-darker.js'),
     'material-lighter': require('./scheme/material-lighter.js'),
-    'matrix': require('./scheme/matrix.js'),
     'monokai': require('./scheme/monokai.js'),
     'predawn': require('./scheme/predawn.js'),
     'solarized-dark': require('./scheme/solarized-dark.js'),

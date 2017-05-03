@@ -36,7 +36,8 @@ Currently, we provide our user over **14** beautiful color scheme:
 * `solarized-dark` and `solarized-light`
 * `tomorrow`, `tomorrow-night`, `tomorrow-night-eighties`, `tomorrow-night-bright` and `tomorrow-night-blue`
 * `material`, `material-darker` and `material-lighter`
-* `monokai`, `dracula`, `predawn` and `matrix`
+* `base16-green-screen`
+* `monokai`, `dracula` and `predawn`
 
 For example, if you like the `tomorrow-night` color scheme, you can add the following script:
 
