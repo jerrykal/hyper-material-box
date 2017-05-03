@@ -35,6 +35,8 @@ exports.decorateConfig = config => {
   const schemeIndex = {
     // material-box schemes
     'base16-green-screen': require('./scheme/base16-green-screen.js'),
+    'base16-ocean-dark': require('./scheme/base16-ocean-dark.js'),
+    'base16-ocean-light': require('./scheme/base16-ocean-light.js'),
     'dracula': require('./scheme/dracula.js'),
     'material': require('./scheme/material.js'),
     'material-darker': require('./scheme/material-darker.js'),

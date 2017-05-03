@@ -31,12 +31,12 @@ You can add the following scripts to your `.hyper.js`, if you like what you :eye
 
 > The default color scheme is `solarized-dark`.
 
-Currently, we provide our user over **14** beautiful color scheme:
+Currently, we provide our user over **16** beautiful color scheme:
 
 * `solarized-dark` and `solarized-light`
 * `tomorrow`, `tomorrow-night`, `tomorrow-night-eighties`, `tomorrow-night-bright` and `tomorrow-night-blue`
 * `material`, `material-darker` and `material-lighter`
-* `base16-green-screen`
+* `base16-green-screen`, `base16-ocean-dark` and `base16-ocean-light`
 * `monokai`, `dracula` and `predawn`
 
 For example, if you like the `tomorrow-night` color scheme, you can add the following script:
@@ -292,6 +292,7 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 
 :zap: The `material` UI inspired by [equinusocio/hyper-material-theme](https://github.com/equinusocio/hyper-material-theme)  
 :zap: The `material` color scheme inspired by [equinusocio/material-theme](https://github.com/equinusocio/material-theme)  
+:zap: The `base16` color scheme family inspired by [Base16](https://chriskempson.github.io/base16/)  
 :zap: The `solarized` color scheme inspired by [Solarized - Ethan Schoonover](http://ethanschoonover.com/solarized)  
 :zap: The `Tomorrow` color scheme inspired by [chriskempson/tomorrow-theme](https://github.com/chriskempson/tomorrow-theme)  
 :zap: The `dracula` color scheme inspired by [Dracula — A dark theme for Atom, Alfred, Brackets, Emacs, iTerm ...](https://draculatheme.com/)  

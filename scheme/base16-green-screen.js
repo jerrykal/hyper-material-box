@@ -32,12 +32,4 @@ module.exports = {
   // Other
   inactiveTabTitleColor: 'rgba(0, 255, 0, 0.3)',
   activeTabTitleColor: '#00FF00',
-
-  // css
-  css: '',
-  termCSS: `
-  x-screen {
-    background-color: transparent !important;
-    text-shadow: 0 0 5px;
-  }`,
 };
