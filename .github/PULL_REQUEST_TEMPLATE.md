@@ -37,9 +37,13 @@
     // Accent color
     accentColor: '...',
 
-    // Other
+    // Other (optional, it will be override by foregroundColor)
     inactiveTabTitleColor: '...',
     activeTabTitleColor: '...',
+
+    // css (optional)
+    css: '...',
+    termCSS: '...',
   };
   ```
   * Add your color scheme to the :point_right: [schemeIndex](https://github.com/ooJerryLeeoo/hyper-material-box/blob/master/index.js#L3) (**ALPHABETICAL** order)
