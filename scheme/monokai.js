@@ -10,7 +10,7 @@ module.exports = {
     magenta: '#AE81FF',
     cyan: '#A1EFE4',
     white: '#FFFFFF',
-    lightBlack: '#49483E',
+    lightBlack: '#75715E',
     lightRed: '#F92672',
     lightGreen: '#A6E22E',
     lightYellow: '#E6DB74',
