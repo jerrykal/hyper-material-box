@@ -11,7 +11,7 @@ If you have any problem, feel free to [submit a new issue](https://github.com/oo
 1. Fork this repository
 2. Create a new branch with the new feature name (Ex. add-some-color-scheme or fix-#000)
 3. Make your changes
-4. Commit your changes (please use the [gitmoji](https://gitmoji.carloscuesta.me/) for the commit message)
+4. Commit your changes (use [gitmoji](https://gitmoji.carloscuesta.me/))
 5. Push your commits
 6. Submit you pull request, and drink some :tea:
 
@@ -19,7 +19,7 @@ If you have any problem, feel free to [submit a new issue](https://github.com/oo
 
 If you want to share your Amazing color scheme on [hyper-material-box](https://github.com/ooJerryLeeoo/hyper-material-box), you need to make sure you've done the following steps:
 
-1. Create a new file name `your-scheme-name.js` under `scheme` folder
+1. Create a new file name `your-scheme-name.js` under [scheme](https://github.com/ooJerryLeeoo/hyper-material-box/tree/master/scheme) folder
 2. Write your color scheme with the following format:
 ``` javascript
 'use strict';
@@ -54,7 +54,7 @@ module.exports = {
   accentColor: '...',
 
   // Other (optional, it will be override by foregroundColor)
-  inactiveTabTitleColor: 'rgba(255, 255, 255, 0.2)',
+  inactiveTabTitleColor: '...',
   activeTabTitleColor: '...',
 
   // css (optional)
@@ -62,6 +62,8 @@ module.exports = {
   termCSS: '...',
 };
 ```
-3. Add your color scheme to the `schemeIndex` under `index.js` (Please insert it according to the **ALPHABETICAL** order, and don't move the user section)
+3. Add your color scheme to the :point_right: [schemeIndex](https://github.com/ooJerryLeeoo/hyper-material-box/blob/master/index.js#L3) (**ALPHABETICAL** order)
+4. Add your color scheme to the `README.md` list (**ALPHABETICAL** order)
+5. Add your color scheme to the :point_right: [keywords](https://github.com/ooJerryLeeoo/hyper-material-box/blob/master/package.json#L6) (**ALPHABETICAL** order)
 
 Cheers :beers:

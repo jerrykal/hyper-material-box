@@ -3,7 +3,7 @@
 -->
 
 * [ ] Put an `x` between the brackets on this line if you have done all of the following things:
-  * Create a new javascript file call `your_color_scheme_.js` under the `scheme` folder
+  * Create a new file name `your-scheme-name.js` under [scheme](https://github.com/ooJerryLeeoo/hyper-material-box/tree/master/scheme) folder
   * The code format look like this:
   ``` javascript
   'use strict';
@@ -38,8 +38,10 @@
     accentColor: '...',
 
     // Other
-    inactiveTabTitleColor: 'rgba(255, 255, 255, 0.2)',
+    inactiveTabTitleColor: '...',
     activeTabTitleColor: '...',
   };
   ```
-  * Add your color scheme to the `schemeIndex`, and insert it according to the **ALPHABETICAL** order
+  * Add your color scheme to the :point_right: [schemeIndex](https://github.com/ooJerryLeeoo/hyper-material-box/blob/master/index.js#L3) (**ALPHABETICAL** order)
+  * Add your color scheme to the `README.md` list (**ALPHABETICAL** order)
+  * Add your color scheme to the :point_right: [keywords](https://github.com/ooJerryLeeoo/hyper-material-box/blob/master/package.json#L6) (**ALPHABETICAL** order)

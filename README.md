@@ -33,11 +33,22 @@ You can add the following scripts to your `.hyper.js`, if you like what you :eye
 
 Currently, we provide our user over **16** beautiful color scheme:
 
-* `solarized-dark` and `solarized-light`
-* `tomorrow`, `tomorrow-night`, `tomorrow-night-eighties`, `tomorrow-night-bright` and `tomorrow-night-blue`
-* `material`, `material-darker` and `material-lighter`
-* `base16-green-screen`, `base16-ocean-dark` and `base16-ocean-light`
-* `monokai`, `dracula` and `predawn`
+* `base16-ocean-light`
+* `base16-ocean-dark`
+* `base16-green-screen`
+* `dracula`
+* `material-darker`
+* `material-lighter`
+* `material`
+* `monokai`
+* `predawn`
+* `solarized-dark`
+* `solarized-light`
+* `tomorrow-night-blue`
+* `tomorrow-night-bright`
+* `tomorrow-night-eighties`
+* `tomorrow-night`
+* `tomorrow`
 
 For example, if you like the `tomorrow-night` color scheme, you can add the following script:
 

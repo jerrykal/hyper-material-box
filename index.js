@@ -1,5 +1,26 @@
 'use strict';
 
+const schemeIndex = {
+  // material-box schemes:
+  // format: 'color-scheme-name': require('./scheme/color-scheme-name.js'),
+  'base16-green-screen': require('./scheme/base16-green-screen.js'),
+  'base16-ocean-dark': require('./scheme/base16-ocean-dark.js'),
+  'base16-ocean-light': require('./scheme/base16-ocean-light.js'),
+  'dracula': require('./scheme/dracula.js'),
+  'material': require('./scheme/material.js'),
+  'material-darker': require('./scheme/material-darker.js'),
+  'material-lighter': require('./scheme/material-lighter.js'),
+  'monokai': require('./scheme/monokai.js'),
+  'predawn': require('./scheme/predawn.js'),
+  'solarized-dark': require('./scheme/solarized-dark.js'),
+  'solarized-light': require('./scheme/solarized-light.js'),
+  'tomorrow': require('./scheme/tomorrow.js'),
+  'tomorrow-night': require('./scheme/tomorrow-night.js'),
+  'tomorrow-night-blue': require('./scheme/tomorrow-night-blue.js'),
+  'tomorrow-night-bright': require('./scheme/tomorrow-night-bright.js'),
+  'tomorrow-night-eighties': require('./scheme/tomorrow-night-eighties.js'),
+};
+
 const colorJS = require('color');
 
 exports.decorateConfig = config => {
@@ -30,30 +51,9 @@ exports.decorateConfig = config => {
             config.activeTabTitleColor || config.foregroundColor,
       },
       (config.materialBox ? config.materialBox.user : {}));
+  schemeIndex.user = materialBox.user;
 
   // Get scheme
-  const schemeIndex = {
-    // material-box schemes
-    'base16-green-screen': require('./scheme/base16-green-screen.js'),
-    'base16-ocean-dark': require('./scheme/base16-ocean-dark.js'),
-    'base16-ocean-light': require('./scheme/base16-ocean-light.js'),
-    'dracula': require('./scheme/dracula.js'),
-    'material': require('./scheme/material.js'),
-    'material-darker': require('./scheme/material-darker.js'),
-    'material-lighter': require('./scheme/material-lighter.js'),
-    'monokai': require('./scheme/monokai.js'),
-    'predawn': require('./scheme/predawn.js'),
-    'solarized-dark': require('./scheme/solarized-dark.js'),
-    'solarized-light': require('./scheme/solarized-light.js'),
-    'tomorrow': require('./scheme/tomorrow.js'),
-    'tomorrow-night': require('./scheme/tomorrow-night.js'),
-    'tomorrow-night-blue': require('./scheme/tomorrow-night-blue.js'),
-    'tomorrow-night-bright': require('./scheme/tomorrow-night-bright.js'),
-    'tomorrow-night-eighties': require('./scheme/tomorrow-night-eighties.js'),
-
-    // user-defined scheme
-    'user': materialBox.user,
-  };
   const scheme = Object.assign(
       schemeIndex[materialBox.scheme.toLowerCase()] ||
           schemeIndex['solarized-dark'],
