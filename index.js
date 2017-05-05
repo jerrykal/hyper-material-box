@@ -31,6 +31,7 @@ exports.decorateConfig = config => {
         backgroundVibrancy: false,
         closeOnTheLeft: false,
         activeTabStyle: 'underline',
+        hideTrafficLights: false,
         lightEffect: false,
         autoHideTitle: false,
         highlightActiveTab: false,
@@ -70,6 +71,16 @@ exports.decorateConfig = config => {
     } else {
       exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
     }
+  }
+
+  // Hide traffic-lights
+  if (materialBox.hideTrafficLights === true) {
+    exports.decorateBrowserOptions = config => {
+      return Object.assign({}, config, {
+        titleBarStyle: '',
+        frame: false,
+      });
+    };
   }
 
   // Active tab style
@@ -180,16 +191,19 @@ exports.decorateConfig = config => {
       will-change: opacity;
     }
     ${
+      // left close button
       materialBox.closeOnTheLeft === true ?
           '.tab_tab .tab_icon { left: 7px; right: initial; }' :
           ''
     }
     ${
+      // auto hide title
       materialBox.autoHideTitle === true ?
           '.tabs_title { display: none !important; }' :
           ''
     }
     ${
+      // highlight active tab
       materialBox.highlightActiveTab === true ? `
       .tab_active {
         background-color: ${
@@ -200,6 +214,13 @@ exports.decorateConfig = config => {
 
       }` :
                                                 ''
+    }
+    ${
+      // hide traffic lights
+      materialBox.hideTrafficLights === true ? `
+      .tabs_borderShim { display: none; }
+      .tabs_list { margin-left: -1px; }` :
+                                               ''
     }
     ${tabStyle}
     ${scheme.css || ''}

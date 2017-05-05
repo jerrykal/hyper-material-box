@@ -296,6 +296,22 @@ module.exports = {
 }
 ```
 
+#### Hide traffic-lights
+
+> hide traffic light is disable by default
+
+If you want to hide the traffic-lights, you can set the `hideTrafficLights` to `true`:
+
+``` javascript
+module.exports = {
+  config: {
+    materialBox: {
+      hideTrafficLights: true,
+    }
+  }
+}
+```
+
 ## Contributing to hyper-material-box
 
 You can contribute your own color scheme to this project, see the [CONTRIBUTING.md](.github/CONTRIBUTING.md) for more details.
@@ -316,6 +332,7 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 :zap: The `light effect` inspired by [simeydotme/hyperterm-gooey](https://github.com/simeydotme/hyperterm-gooey)  
 :zap: The `left close button` inspired by [jhen0409/hyperterm-close-on-left](https://github.com/jhen0409/hyperterm-close-on-left)  
 :zap: The `auto hide title` inspired by [sindresorhus/hyper-hide-title](https://github.com/sindresorhus/hyper-hide-title)  
+:zap: The `hide traffic-lights` inspired by [albinekb/hyperclean](https://github.com/albinekb/hyperclean)  
 
 :heart: **Thank you guys, you guys are all amazing !!!** :heart:
 
