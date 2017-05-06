@@ -7,11 +7,11 @@ The most hackable theme for your favorite terminal **Hyper**
 
 ![solarized_dark](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/solarized_dark.png)
 
-## Let's jump right in
+## :checkered_flag: Let's jump right in
 
 All you need is two simple steps !!
 
-### Installation
+### :inbox_tray: Installation
 
 Just add the following script to your `.hyper.js`:
 
@@ -24,11 +24,11 @@ module.exports = {
 Restart your `Hyper.app`.  
 Done :tada:
 
-### Config
+### :wrench: Config
 
 You can add the following scripts to your `.hyper.js`, if you like what you :eyes:.
 
-#### Color cheme
+#### :wrench: Color cheme
 
 > The default color scheme is `solarized-dark`.
 
@@ -65,7 +65,7 @@ module.exports = {
 
 ![tomorrow_night](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/tomorrow_night.png)
 
-##### User
+##### :wrench: User
 
 > You can override the default color scheme with the `user` section.
 
@@ -118,7 +118,7 @@ module.exports = {
 }
 ```
 
-#### Active tab style
+#### :wrench: Active tab style
 
 > The default active tab style is `underline`.
 
@@ -172,7 +172,7 @@ module.exports = {
 
 ![none_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/none_tab_style.png)
 
-##### Highlight active tab
+##### :wrench: Highlight active tab
 
 > highlight active tab is disable by default
 
@@ -190,7 +190,7 @@ module.exports = {
 
 ![highlight_active_tab](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/highlight_active_tab.png)
 
-##### Accent color
+##### :wrench: Accent color
 
 You can change the accent color by set the `user: { accentColor }` to another color:
 
@@ -208,7 +208,7 @@ module.exports = {
 
 ![accent_color_red](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/accent_color_red.png)
 
-##### Light effect
+##### :wrench: Light effect
 
 > The `overline` active tab styles doesn't support light effect.
 
@@ -226,7 +226,7 @@ module.exports = {
 
 ![light_effect](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/light_effect.png)
 
-#### Background opacity
+#### :wrench: Background opacity
 
 > The default background opacity is `1.0`.
 
@@ -244,7 +244,7 @@ module.exports = {
 
 ![background_opacity](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/background_opacity.png)
 
-##### Background Vibrancy
+##### :wrench: Background Vibrancy
 
 > Background vibrancy only available when background opacity value is between 0.1 ~ 0.9
 
@@ -262,9 +262,9 @@ module.exports = {
 
 ![background_vibrancy](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/background_vibrancy.png)
 
-### Other
+### :wrench: Other
 
-#### Left close button
+#### :wrench: Left close button
 
 > left close button is disable by default
 
@@ -280,7 +280,7 @@ module.exports = {
 }
 ```
 
-#### Auto hide title
+#### :wrench: Auto hide title
 
 > auto hide title is disable by default
 
@@ -296,7 +296,7 @@ module.exports = {
 }
 ```
 
-#### Hide traffic-lights
+#### :wrench: Hide traffic-lights
 
 > hide traffic light is disable by default
 
@@ -312,11 +312,11 @@ module.exports = {
 }
 ```
 
-## Contributing to hyper-material-box
+## :heart: Contributing to hyper-material-box
 
 You can contribute your own color scheme to this project, see the [CONTRIBUTING.md](.github/CONTRIBUTING.md) for more details.
 
-## Credit
+## :zap: Credit
 
 :zap: The `material` UI inspired by [equinusocio/hyper-material-theme](https://github.com/equinusocio/hyper-material-theme)  
 :zap: The `material` color scheme inspired by [equinusocio/material-theme](https://github.com/equinusocio/material-theme)  
@@ -336,6 +336,6 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 
 :heart: **Thank you guys, you guys are all amazing !!!** :heart:
 
-## License
+## :page_facing_up: License
 
 This project is licensed under the MIT License, please see the :page_facing_up:[LICENSE.md](LICENSE.md) for more details :+1:
