@@ -1,7 +1,4 @@
-# hyper-material-box
-
-[![npm](https://img.shields.io/npm/v/hyper-material-box.svg?style=flat-square)](https://www.npmjs.com/package/hyper-material-box)
-[![npm](https://img.shields.io/npm/dm/hyper-material-box.svg?style=flat-square)](https://www.npmjs.com/package/hyper-material-box)
+# hyper-material-box [![npm](https://img.shields.io/npm/v/hyper-material-box.svg?style=flat-square)](https://www.npmjs.com/package/hyper-material-box) [![npm](https://img.shields.io/npm/dm/hyper-material-box.svg?style=flat-square)](https://www.npmjs.com/package/hyper-material-box)
 
 The most hackable theme for your favorite terminal **Hyper**
 
