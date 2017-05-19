@@ -29,16 +29,19 @@ You can add the following scripts to your `.hyper.js`, if you like what you :eye
 
 > The default color scheme is `solarized-dark`.
 
-Currently, we provide our user over **16** beautiful color scheme:
+Currently, we provide our user over **18** beautiful color scheme:
 
-* `base16-ocean-light`
-* `base16-ocean-dark`
 * `base16-green-screen`
+* `base16-ocean-dark`
+* `base16-ocean-light`
 * `dracula`
 * `material-darker`
 * `material-lighter`
 * `material`
 * `monokai`
+* `nord`
+* `one-dark`
+* `one-light`
 * `predawn`
 * `solarized-dark`
 * `solarized-light`
@@ -316,14 +319,17 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 ## :zap: Credit
 
 :zap: The `material` UI inspired by [equinusocio/hyper-material-theme](https://github.com/equinusocio/hyper-material-theme)  
-:zap: The `material` color scheme inspired by [equinusocio/material-theme](https://github.com/equinusocio/material-theme)  
 :zap: The `base16` color scheme family inspired by [Base16](https://chriskempson.github.io/base16/)  
+:zap: The `dracula` color scheme inspired by [Dracula — A dark theme for Atom, Alfred, Brackets, Emacs, iTerm ...](https://draculatheme.com/)  
+:zap: The `material` color scheme inspired by [equinusocio/material-theme](https://github.com/equinusocio/material-theme)  
+:zap: The `matrix` color scheme inspired by [giuseppeg/hyperterm-green](https://github.com/giuseppeg/hyperterm-green)  
+:zap: The `monokai` color scheme inspired by the most popular color scheme for Sublime Text  
+:zap: The `nord` color scheme inspired by [arcticicestudio/nord-hyper](https://github.com/arcticicestudio/nord-hyper)  
+:zap: The `one-dark` color scheme inspired by [atom/one-dark-syntax](https://github.com/atom/one-dark-syntax/)  
+:zap: The `one-light` color scheme inspired by [atom/one-light-syntax](https://github.com/atom/one-light-syntax/)  
+:zap: The `predawn` color scheme inspired by [jamiewilson/predawn-hyperterm](https://github.com/jamiewilson/predawn-hyperterm)  
 :zap: The `solarized` color scheme inspired by [Solarized - Ethan Schoonover](http://ethanschoonover.com/solarized)  
 :zap: The `Tomorrow` color scheme inspired by [chriskempson/tomorrow-theme](https://github.com/chriskempson/tomorrow-theme)  
-:zap: The `dracula` color scheme inspired by [Dracula — A dark theme for Atom, Alfred, Brackets, Emacs, iTerm ...](https://draculatheme.com/)  
-:zap: The `monokai` color scheme inspired by the most popular color scheme for Sublime Text  
-:zap: The `predawn` color scheme inspired by [jamiewilson/predawn-hyperterm](https://github.com/jamiewilson/predawn-hyperterm)  
-:zap: The `matrix` color scheme inspired by [giuseppeg/hyperterm-green](https://github.com/giuseppeg/hyperterm-green)  
 :zap: The `preline` active tab style inspired by [Kikobeats/hyper-flat](https://github.com/kikobeats/hyper-flat).  
 :zap: The `overline` active tab style inspired by [pauldariye/hyper-midnight](https://github.com/pauldariye/hyper-midnight).  
 :zap: The `light effect` inspired by [simeydotme/hyperterm-gooey](https://github.com/simeydotme/hyperterm-gooey)  
