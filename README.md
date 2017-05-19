@@ -25,7 +25,7 @@ Done :tada:
 
 You can add the following scripts to your `.hyper.js`, if you like what you :eyes:.
 
-#### :wrench: Color cheme
+#### :wrench: Color scheme
 
 > The default color scheme is `solarized-dark`.
 
