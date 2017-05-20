@@ -2,7 +2,13 @@
 
 The most hackable theme for your favorite terminal **Hyper**
 
-![solarized_dark](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/solarized_dark.png)
+![top_1](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/top_1.png)
+
+![top_2](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/top_2.png)
+
+![top_3](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/top_3.png)
+
+![top_4](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/top_4.png)
 
 ## :checkered_flag: Let's jump right in
 
