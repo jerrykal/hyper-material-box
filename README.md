@@ -35,7 +35,7 @@ You can add the following scripts to your `.hyper.js`, if you like what you :eye
 
 > The default color scheme is `solarized-dark`.
 
-Currently, we provide our user over **18** beautiful color scheme:
+Currently, we provide our user over **20** beautiful color scheme:
 
 * `base16-green-screen`
 * `base16-ocean-dark`
@@ -49,6 +49,7 @@ Currently, we provide our user over **18** beautiful color scheme:
 * `one-dark`
 * `one-light`
 * `predawn`
+* `seti`
 * `solarized-dark`
 * `solarized-light`
 * `tomorrow-night-blue`
@@ -334,6 +335,7 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 :zap: The `one-dark` color scheme inspired by [atom/one-dark-syntax](https://github.com/atom/one-dark-syntax/)  
 :zap: The `one-light` color scheme inspired by [atom/one-light-syntax](https://github.com/atom/one-light-syntax/)  
 :zap: The `predawn` color scheme inspired by [jamiewilson/predawn-hyperterm](https://github.com/jamiewilson/predawn-hyperterm)  
+:zap: The `seti` color scheme inspired by [jesseweed/seti-syntax](https://github.com/jesseweed/seti-syntax)  
 :zap: The `solarized` color scheme inspired by [Solarized - Ethan Schoonover](http://ethanschoonover.com/solarized)  
 :zap: The `Tomorrow` color scheme inspired by [chriskempson/tomorrow-theme](https://github.com/chriskempson/tomorrow-theme)  
 :zap: The `preline` active tab style inspired by [Kikobeats/hyper-flat](https://github.com/kikobeats/hyper-flat).  

@@ -15,6 +15,7 @@ const schemeIndex = {
   'one-dark': require('./scheme/one-dark.js'),
   'one-light': require('./scheme/one-light.js'),
   'predawn': require('./scheme/predawn.js'),
+  'seti': require('./scheme/seti.js'),
   'solarized-dark': require('./scheme/solarized-dark.js'),
   'solarized-light': require('./scheme/solarized-light.js'),
   'tomorrow': require('./scheme/tomorrow.js'),
