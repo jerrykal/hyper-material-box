@@ -35,12 +35,18 @@ You can add the following scripts to your `.hyper.js`, if you like what you :eye
 
 > The default color scheme is `solarized-dark`.
 
-Currently, we provide our user over **20** beautiful color scheme:
+Currently, we provide our user over **26** beautiful color scheme:
 
 * `base16-green-screen`
 * `base16-ocean-dark`
 * `base16-ocean-light`
 * `dracula`
+* `gruvbox-dark-hard`
+* `gruvbox-dark-medium`
+* `gruvbox-dark-soft`
+* `gruvbox-light-hard`
+* `gruvbox-light-medium`
+* `gruvbox-light-soft`
 * `material-darker`
 * `material-lighter`
 * `material`
@@ -328,6 +334,7 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 :zap: The `material` UI inspired by [equinusocio/hyper-material-theme](https://github.com/equinusocio/hyper-material-theme)  
 :zap: The `base16` color scheme family inspired by [Base16](https://chriskempson.github.io/base16/)  
 :zap: The `dracula` color scheme inspired by [Dracula — A dark theme for Atom, Alfred, Brackets, Emacs, iTerm ...](https://draculatheme.com/)  
+:zap: The `gruvbox` color scheme family inspired by [Briles/gruvbox-atom](https://github.com/Briles/gruvbox-atom)  
 :zap: The `material` color scheme inspired by [equinusocio/material-theme](https://github.com/equinusocio/material-theme)  
 :zap: The `matrix` color scheme inspired by [giuseppeg/hyperterm-green](https://github.com/giuseppeg/hyperterm-green)  
 :zap: The `monokai` color scheme inspired by the most popular color scheme for Sublime Text  
