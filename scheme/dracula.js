@@ -16,7 +16,7 @@ module.exports = {
     lightYellow: '#F1FA8C',
     lightBlue: '#6272A4',
     lightMagenta: '#FF79C6',
-    lightCyan: '8BE9FD',
+    lightCyan: '#8BE9FD',
     lightWhite: '#FFFFFF',
   },
 
@@ -27,7 +27,7 @@ module.exports = {
   borderColor: 'transparent',
 
   // Accent color
-  accentColor: '#FF5555',
+  accentColor: '#6272A4',
 
   // Other
   inactiveTabTitleColor: 'rgba(255, 255, 255, 0.2)',
