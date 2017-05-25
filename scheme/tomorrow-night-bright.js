@@ -27,7 +27,7 @@ module.exports = {
   borderColor: 'transparent',
 
   // Accent color
-  accentColor: '#D54E53',
+  accentColor: '#7AA6DA',
 
   // Other
   inactiveTabTitleColor: 'rgba(255, 255, 255, 0.2)',
