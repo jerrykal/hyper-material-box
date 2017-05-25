@@ -2,13 +2,13 @@
 
 The most hackable theme for your favorite terminal **Hyper**
 
-![top_1](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/top_1.png)
+![top_1](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/top_1.png)
 
-![top_2](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/top_2.png)
+![top_2](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/top_2.png)
 
-![top_3](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/top_3.png)
+![top_3](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/top_3.png)
 
-![top_4](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/top_4.png)
+![top_4](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/top_4.png)
 
 ## :checkered_flag: Let's jump right in
 
@@ -76,7 +76,7 @@ module.exports = {
 }
 ```
 
-![tomorrow_night](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/tomorrow_night.png)
+![tomorrow_night](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/tomorrow_night.png)
 
 ##### :wrench: User
 
@@ -147,7 +147,7 @@ module.exports = {
 }
 ```
 
-![preline_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/preline_tab_style.png)
+![preline_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/preline_tab_style.png)
 
 ``` javascript
 module.exports = {
@@ -159,7 +159,7 @@ module.exports = {
 }
 ```
 
-![overline_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/overline_tab_style.png)
+![overline_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/overline_tab_style.png)
 
 ``` javascript
 module.exports = {
@@ -171,7 +171,7 @@ module.exports = {
 }
 ```
 
-![filled_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/filled_tab_style.png)
+![filled_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/filled_tab_style.png)
 
 ``` javascript
 module.exports = {
@@ -183,7 +183,7 @@ module.exports = {
 }
 ```
 
-![none_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/none_tab_style.png)
+![none_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/none_tab_style.png)
 
 ##### :wrench: Highlight active tab
 
@@ -201,7 +201,7 @@ module.exports = {
 }
 ```
 
-![highlight_active_tab](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/highlight_active_tab.png)
+![highlight_active_tab](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/highlight_active_tab.png)
 
 ##### :wrench: Accent color
 
@@ -219,7 +219,7 @@ module.exports = {
 }
 ```
 
-![accent_color_red](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/accent_color_red.png)
+![accent_color_red](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/accent_color_red.png)
 
 ##### :wrench: Light effect
 
@@ -237,7 +237,7 @@ module.exports = {
 }
 ```
 
-![light_effect](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/light_effect.png)
+![light_effect](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/light_effect.png)
 
 #### :wrench: Background opacity
 
@@ -255,7 +255,7 @@ module.exports = {
 }
 ```
 
-![background_opacity](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/background_opacity.png)
+![background_opacity](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/background_opacity.png)
 
 ##### :wrench: Background Vibrancy
 
@@ -273,7 +273,7 @@ module.exports = {
 }
 ```
 
-![background_vibrancy](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/screenshot/background_vibrancy.png)
+![background_vibrancy](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/background_vibrancy.png)
 
 ### :wrench: Other
 
