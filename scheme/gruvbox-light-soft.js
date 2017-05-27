@@ -2,14 +2,14 @@
 
 module.exports = {
   colors: {
-    black: '#F2E5BC',
+    black: '#32302F',
     red: '#9D0006',
     green: '#79740E',
     yellow: '#B57614',
     blue: '#076678',
     magenta: '#8F3F71',
     cyan: '#427B58',
-    white: '#32302F',
+    white: '#F2E5BC',
     lightBlack: '#928374',
     lightRed: '#9D0006',
     lightGreen: '#79740E',
@@ -17,7 +17,7 @@ module.exports = {
     lightBlue: '#076678',
     lightMagenta: '#8F3F71',
     lightCyan: '#427B58',
-    lightWhite: '#32302F',
+    lightWhite: '#F2E5BC',
   },
 
   // Default
