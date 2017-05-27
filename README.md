@@ -2,7 +2,7 @@
 
 The most hackable theme for your favorite terminal **Hyper**
 
-![top](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/top.gif)
+[![top](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/top.gif)](assets/scheme)
 
 ## :checkered_flag: Let's jump right in
 
