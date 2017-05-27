@@ -2,13 +2,7 @@
 
 The most hackable theme for your favorite terminal **Hyper**
 
-![top_1](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/top_1.png)
-
-![top_2](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/top_2.png)
-
-![top_3](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/top_3.png)
-
-![top_4](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/top_4.png)
+![top](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/top.gif)
 
 ## :checkered_flag: Let's jump right in
 
@@ -29,98 +23,98 @@ Done :tada:
 
 ### :wrench: Config
 
-You can add the following scripts to your `.hyper.js`, if you like what you :eyes:.
+You can add the following scripts to your `.hyper.js`, if you like what you see.
 
 #### :wrench: Color scheme
 
 > The default color scheme is `solarized-dark`.
 
-Currently, we provide our user over **26** beautiful color schemes:
+Currently, we provide our user over **26** beautiful color schemes (click the name to see the screenshot):
 
-* `base16-green-screen`
-* `base16-ocean-dark`
-* `base16-ocean-light`
-* `dracula`
-* `gruvbox-dark-hard`
-* `gruvbox-dark-medium`
-* `gruvbox-dark-soft`
-* `gruvbox-light-hard`
-* `gruvbox-light-medium`
-* `gruvbox-light-soft`
-* `material-darker`
-* `material-lighter`
-* `material`
-* `monokai`
-* `nord`
-* `one-dark`
-* `one-light`
-* `predawn`
-* `seti`
-* `solarized-dark`
-* `solarized-light`
-* `tomorrow-night-blue`
-* `tomorrow-night-bright`
-* `tomorrow-night-eighties`
-* `tomorrow-night`
-* `tomorrow`
+* [base16-green-screen](assets/scheme/base16-green-screen.png)
+* [base16-ocean-dark](assets/scheme/base16-ocean-dark.png)
+* [base16-ocean-light](assets/scheme/base16-ocean-light.png)
+* [dracula](assets/scheme/dracula.png)
+* [gruvbox-dark-hard](assets/scheme/gruvbox-dark-hard.png)
+* [gruvbox-dark-medium](assets/scheme/gruvbox-dark-medium.png)
+* [gruvbox-dark-soft](assets/scheme/gruvbox-dark-soft.png)
+* [gruvbox-light-hard](assets/scheme/gruvbox-light-hard.png)
+* [gruvbox-light-medium](assets/scheme/gruvbox-light-medium.png)
+* [gruvbox-light-soft](assets/scheme/gruvbox-light-soft.png)
+* [material-darker](assets/scheme/material-darker.png)
+* [material-lighter](assets/scheme/material-lighter.png)
+* [material](assets/scheme/material.png)
+* [monokai](assets/scheme/monokai.png)
+* [nord](assets/scheme/nord.png)
+* [one-dark](assets/scheme/one-dark.png)
+* [one-light](assets/scheme/one-light.png)
+* [predawn](assets/scheme/predawn.png)
+* [seti](assets/scheme/seti.png)
+* [solarized-dark](assets/scheme/solarized-dark.png)
+* [solarized-light](assets/scheme/solarized-light.png)
+* [tomorrow-night-blue](assets/scheme/tomorrow-night-blue.png)
+* [tomorrow-night-bright](assets/scheme/tomorrow-night-bright.png)
+* [tomorrow-night-eighties](assets/scheme/tomorrow-night-eighties.png)
+* [tomorrow-night](assets/scheme/tomorrow-night.png)
+* [tomorrow](assets/scheme/tomorrow.png)
 
-For example, if you like the `tomorrow-night` color scheme, you can add the following script:
+For example, if you like the `material` color scheme, you can add the following script:
 
 ```javascript
 module.exports = {
   config: {
     materialBox: {
-      scheme: 'tomorrow-night',
+      scheme: 'material',
     }
   }
 }
 ```
 
-![tomorrow_night](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/tomorrow_night.png)
+![material](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/scheme/material.png)
 
 ##### :wrench: User
 
 > You can override the default color scheme with the `user` section.
 
 If your favorite color scheme isn't in the list, you can create a new scheme by yourself,  
-for example you can add the following script instead adding `scheme: 'tomorrow-night'`:
+for example you can add the following script instead adding `scheme: 'material'`:
 
 ``` javascript
 module.exports = {
   config: {
     materialBox: {
       user: {
-        colors : {
-          black : '#1D1F21',
-          red : '#CC6666',
-          green : '#B5BD68',
-          yellow : '#F0C674',
-          blue : '#81A2BE',
-          magenta : '#B294BB',
-          cyan : '#8ABEB7',
-          white : '#C5C8C6',
-          lightBlack : '#969896',
-          lightRed : '#CC6666',
-          lightGreen : '#B5BD68',
-          lightYellow : '#F0C674',
-          lightBlue : '#81A2BE',
-          lightMagenta : '#B294BB',
-          lightCyan : '#8ABEB7',
-          lightWhite : '#C5C8C6',
+        colors: {
+          black: '#263238',
+          red: '#FF5370',
+          green: '#C3E88D',
+          yellow: '#FFCB6B',
+          blue: '#82AAFF',
+          magenta: '#F07178',
+          cyan: '#89DDFF',
+          white: '#EEFFFF',
+          lightBlack: '#546E7A',
+          lightRed: '#FF5370',
+          lightGreen: '#C3E88D',
+          lightYellow: '#FFCB6B',
+          lightBlue: '#82AAFF',
+          lightMagenta: '#F07178',
+          lightCyan: '#89DDFF',
+          lightWhite: '#EEFFFF',
         },
 
         // Default
-        backgroundColor : '#1D1F21',
-        foregroundColor : '#C5C8C6',
-        cursorColor : '#C5C8C6',
-        borderColor : 'transparent',
+        backgroundColor: '#263238',
+        foregroundColor: '#CCCCCC',
+        cursorColor: '#EEFFFF',
+        borderColor: 'transparent',
 
         // Accent color
-        accentColor : '#F2777A',
+        accentColor: '#80CBC4',
 
         // Other (optional, it will be override by foregroundColor)
-        inactiveTabTitleColor : 'rgba(255, 255, 255, 0.2)',
-        activeTabTitleColor : '#C5C8C6',
+        inactiveTabTitleColor: 'rgba(255, 255, 255, 0.2)',
+        activeTabTitleColor: '#EEFFFF',
 
         // css (optional)
         css: '',
@@ -275,6 +269,42 @@ module.exports = {
 
 ![background_vibrancy](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/background_vibrancy.png)
 
+#### :wrench: Auto hide title
+
+> auto hide title is disable by default
+
+You can set the `autoHideTitle` to `true`, it will hide the title when the window only has one tab:
+
+``` javascript
+module.exports = {
+  config: {
+    materialBox: {
+      autoHideTitle: true,
+    }
+  }
+}
+```
+
+![auto_hide_title](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/auto_hide_title.png)
+
+#### :wrench: Hide traffic-lights
+
+> hide traffic light is disable by default
+
+If you want to hide the traffic-lights, you can set the `hideTrafficLights` to `true`:
+
+``` javascript
+module.exports = {
+  config: {
+    materialBox: {
+      hideTrafficLights: true,
+    }
+  }
+}
+```
+
+![hide_traffic_lights](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/hide_traffic_lights.png)
+
 ### :wrench: Other
 
 #### :wrench: Left close button
@@ -288,38 +318,6 @@ module.exports = {
   config: {
     materialBox: {
       closeOnTheLeft: true,
-    }
-  }
-}
-```
-
-#### :wrench: Auto hide title
-
-> auto hide title is disable by default
-
-Hide title when the window only has one tab:
-
-``` javascript
-module.exports = {
-  config: {
-    materialBox: {
-      autoHideTitle: true,
-    }
-  }
-}
-```
-
-#### :wrench: Hide traffic-lights
-
-> hide traffic light is disable by default
-
-If you want to hide the traffic-lights, you can set the `hideTrafficLights` to `true`:
-
-``` javascript
-module.exports = {
-  config: {
-    materialBox: {
-      hideTrafficLights: true,
     }
   }
 }
