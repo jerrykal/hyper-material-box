@@ -269,7 +269,7 @@ module.exports = {
 
 ![background_vibrancy](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/background_vibrancy.png)
 
-#### :wrench: Auto hide title
+### :wrench: Auto hide title
 
 > auto hide title is disable by default
 
@@ -287,7 +287,7 @@ module.exports = {
 
 ![auto_hide_title](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/auto_hide_title.png)
 
-#### :wrench: Hide traffic-lights
+### :wrench: Hide traffic-lights
 
 > hide traffic light is disable by default
 
