@@ -29,8 +29,9 @@ You can add the following scripts to your `.hyper.js`, if you like what you see.
 
 > The default color scheme is `solarized-dark`.
 
-Currently, we provide our user over **26** beautiful color schemes (click the name to see the screenshot):
+Currently, we provide our user over **27** beautiful color schemes (click the name to see the screenshot):
 
+* [80rave](assets/scheme/80rave.png)
 * [base16-green-screen](assets/scheme/base16-green-screen.png)
 * [base16-ocean-dark](assets/scheme/base16-ocean-dark.png)
 * [base16-ocean-light](assets/scheme/base16-ocean-light.png)
