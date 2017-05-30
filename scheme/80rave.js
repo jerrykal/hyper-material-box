@@ -19,10 +19,7 @@ module.exports = {
       lightWhite: '#FFFFFF',                                                                                                               
   },                                                                                                                                   
 
-  activeTabStyle : 'underline',                                                                                                        
-  highlightActiveTab : 'true',                                                                                                         
   accentColor: '#EF00FF',                                                                                                              
-  lightEffect: 'true',                                                                                                                 
 
   // Default                                                                                                                           
   backgroundColor: '#3a003a',                                                                                                          
