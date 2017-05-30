@@ -4,6 +4,7 @@
   "description": "The most hackable theme for your favorite terminal Hyper",
   "main": "index.js",
   "keywords": [
+    "80rave",
     "base16-green-screen",
     "base16-ocean-dark",
     "base16-ocean-light",
