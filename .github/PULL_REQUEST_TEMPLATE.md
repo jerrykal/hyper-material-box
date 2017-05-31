@@ -47,5 +47,9 @@
   };
   ```
   * Add your color scheme to the :point_right: [schemeIndex](https://github.com/ooJerryLeeoo/hyper-material-box/blob/master/index.js#L3) (**ALPHABETICAL** order)
-  * Add your color scheme to the `README.md` list (**ALPHABETICAL** order)
+  * Add your color scheme to the :point_right: [README.md](https://github.com/ooJerryLeeoo/hyper-material-box/blob/master/README.md) list (**ALPHABETICAL** order), and update the color scheme count
+  * Add your GitHub username to the credit section with this format *(don't forget to add __2__ space at the end)*
+  ```
+  :zap: The `your-scheme-name` color scheme contributed by @your-github-username  
+  ```
   * Add your color scheme to the :point_right: [keywords](https://github.com/ooJerryLeeoo/hyper-material-box/blob/master/package.json#L6) (**ALPHABETICAL** order)
