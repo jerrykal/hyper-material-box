@@ -330,6 +330,7 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 
 ## :zap: Credit
 
+:zap: The `80rave` color scheme inspired by [@**PetrBarborka**](https://github.com/PetrBarborka)  
 :zap: The `auto hide title` inspired by [sindresorhus/hyper-hide-title](https://github.com/sindresorhus/hyper-hide-title)  
 :zap: The `base16` color scheme family inspired by [Base16](https://chriskempson.github.io/base16/)  
 :zap: The `dracula` color scheme inspired by [Dracula — A dark theme for Atom, Alfred, Brackets, Emacs, iTerm ...](https://draculatheme.com/)  
