@@ -23,7 +23,7 @@ module.exports = {
   // Default
   backgroundColor: '#263238',
   foregroundColor: '#CCCCCC',
-  cursorColor: '#EEFFFF',
+  cursorColor: '#FFCC00',
   borderColor: 'transparent',
 
   // Accent color
