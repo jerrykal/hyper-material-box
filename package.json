@@ -1,6 +1,6 @@
 {
   "name": "hyper-material-box",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "The most hackable theme for your favorite terminal Hyper",
   "main": "index.js",
   "keywords": [
