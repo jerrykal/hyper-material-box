@@ -29,7 +29,7 @@ You can add the following scripts to your `.hyper.js`, if you like what you see.
 
 > The default color scheme is `solarized-dark`.
 
-Currently, we provide our user over **27** beautiful color schemes (click the name to see the screenshot):
+Currently, we provide our user over **28** beautiful color schemes (click the name to see the screenshot):
 
 * [80rave](assets/scheme/80rave.png)
 * [base16-green-screen](assets/scheme/base16-green-screen.png)
@@ -44,6 +44,7 @@ Currently, we provide our user over **27** beautiful color schemes (click the na
 * [gruvbox-light-soft](assets/scheme/gruvbox-light-soft.png)
 * [material-darker](assets/scheme/material-darker.png)
 * [material-lighter](assets/scheme/material-lighter.png)
+* [material-palenight](assets/scheme/material-palenight.png)
 * [material](assets/scheme/material.png)
 * [monokai](assets/scheme/monokai.png)
 * [nord](assets/scheme/nord.png)

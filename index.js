@@ -17,6 +17,7 @@ const schemeIndex = {
   'material': require('./scheme/material.js'),
   'material-darker': require('./scheme/material-darker.js'),
   'material-lighter': require('./scheme/material-lighter.js'),
+  'material-palenight': require('./scheme/material-palenight.js'),
   'monokai': require('./scheme/monokai.js'),
   'nord': require('./scheme/nord.js'),
   'one-dark': require('./scheme/one-dark.js'),
