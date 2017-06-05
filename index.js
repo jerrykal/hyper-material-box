@@ -4,6 +4,7 @@ const schemeIndex = {
   // material-box schemes:
   // format: 'color-scheme-name': require('./scheme/color-scheme-name.js'),
   '80rave': require('./scheme/80rave.js'),
+  'apex': require('./scheme/apex.js'),
   'base16-green-screen': require('./scheme/base16-green-screen.js'),
   'base16-ocean-dark': require('./scheme/base16-ocean-dark.js'),
   'base16-ocean-light': require('./scheme/base16-ocean-light.js'),

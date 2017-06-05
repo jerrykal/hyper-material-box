@@ -32,6 +32,7 @@ You can add the following scripts to your `.hyper.js`, if you like what you see.
 Currently, we provide our user over **28** beautiful color schemes (click the name to see the screenshot):
 
 * [80rave](assets/scheme/80rave.png)
+* [apex](assets/scheme/apex.png)
 * [base16-green-screen](assets/scheme/base16-green-screen.png)
 * [base16-ocean-dark](assets/scheme/base16-ocean-dark.png)
 * [base16-ocean-light](assets/scheme/base16-ocean-light.png)
@@ -332,6 +333,7 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 ## :zap: Credit
 
 :zap: The `80rave` color scheme contributed by [**@PetrBarborka**](https://github.com/PetrBarborka)  
+:zap: The `apex` color scheme inspired by [apex/apex-syntax](https://github.com/apex/apex-syntax)  
 :zap: The `auto hide title` inspired by [sindresorhus/hyper-hide-title](https://github.com/sindresorhus/hyper-hide-title)  
 :zap: The `base16` color scheme family inspired by [Base16](https://chriskempson.github.io/base16/)  
 :zap: The `dracula` color scheme inspired by [Dracula — A dark theme for Atom, Alfred, Brackets, Emacs, iTerm ...](https://draculatheme.com/)  
