@@ -33,6 +33,7 @@ module.exports = {
   inactiveTabTitleColor: 'rgba(134, 142, 150, 0.2)',
   activeTabTitleColor: '#868e96',
 
+  // css
   termCSS: `
   .cursor-node[focus=true] {
     mix-blend-mode: normal;
