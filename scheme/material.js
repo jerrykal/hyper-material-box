@@ -22,7 +22,7 @@ module.exports = {
 
   // Default
   backgroundColor: '#263238',
-  foregroundColor: '#CCCCCC',
+  foregroundColor: '#EEFFFF',
   cursorColor: '#FFCC00',
   borderColor: 'transparent',
 
@@ -30,6 +30,6 @@ module.exports = {
   accentColor: '#80CBC4',
 
   // Other
-  inactiveTabTitleColor: 'rgba(255, 255, 255, 0.2)',
+  inactiveTabTitleColor: 'rgba(238, 255, 255, 0.2)',
   activeTabTitleColor: '#EEFFFF',
 };
