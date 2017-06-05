@@ -42,10 +42,10 @@ Currently, we provide our user over **28** beautiful color schemes (click the na
 * [gruvbox-light-hard](assets/scheme/gruvbox-light-hard.png)
 * [gruvbox-light-medium](assets/scheme/gruvbox-light-medium.png)
 * [gruvbox-light-soft](assets/scheme/gruvbox-light-soft.png)
+* [material](assets/scheme/material.png)
 * [material-darker](assets/scheme/material-darker.png)
 * [material-lighter](assets/scheme/material-lighter.png)
 * [material-palenight](assets/scheme/material-palenight.png)
-* [material](assets/scheme/material.png)
 * [monokai](assets/scheme/monokai.png)
 * [nord](assets/scheme/nord.png)
 * [one-dark](assets/scheme/one-dark.png)
@@ -54,11 +54,11 @@ Currently, we provide our user over **28** beautiful color schemes (click the na
 * [seti](assets/scheme/seti.png)
 * [solarized-dark](assets/scheme/solarized-dark.png)
 * [solarized-light](assets/scheme/solarized-light.png)
+* [tomorrow](assets/scheme/tomorrow.png)
+* [tomorrow-night](assets/scheme/tomorrow-night.png)
 * [tomorrow-night-blue](assets/scheme/tomorrow-night-blue.png)
 * [tomorrow-night-bright](assets/scheme/tomorrow-night-bright.png)
 * [tomorrow-night-eighties](assets/scheme/tomorrow-night-eighties.png)
-* [tomorrow-night](assets/scheme/tomorrow-night.png)
-* [tomorrow](assets/scheme/tomorrow.png)
 
 For example, if you like the `material` color scheme, you can add the following script:
 
