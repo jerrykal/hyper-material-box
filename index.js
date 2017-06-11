@@ -102,10 +102,14 @@ exports.decorateConfig = config => {
                                  '');
   let tabStyle = '';
   switch (materialBox.activeTabStyle.toLowerCase()) {
-    case 'none':
+    case 'none': {
       break;
-    case 'preline':
+    }
+    case 'preline': {
       tabStyle = `
+        .tab_tab {
+          border: none;
+        }
         .tab_tab::after {
           content: "";
           position: absolute;
@@ -127,22 +131,34 @@ exports.decorateConfig = config => {
           ${lightEffect}
         }`;
       break;
-    case 'overline':
+    }
+    case 'overline': {
       tabStyle = `
-      .tab_tab.tab_active {
-        border-top: 2px solid ${scheme.accentColor} !important;
-      }`;
+        .tab_tab {
+          border: none;
+        }
+        .tab_tab.tab_active {
+          border-top: 2px solid ${scheme.accentColor} !important;
+        }`;
       break;
-    case 'filled':
+    }
+    case 'filled': {
       tabStyle = `
+        .tab_tab {
+          border: none;
+        }
         .tab_tab.tab_active,
         .tabs_title {
           background: ${scheme.accentColor};
           ${lightEffect}
         }`;
       break;
-    default:
+    }
+    default: {
       tabStyle = `
+        .tab_tab {
+          border: none;
+        }
         .tab_tab::before {
           content: '';
           position: absolute;
@@ -156,6 +172,7 @@ exports.decorateConfig = config => {
           ${lightEffect}
         }`;
       break;
+    }
   }
 
   return Object.assign({}, config, {
@@ -165,93 +182,92 @@ exports.decorateConfig = config => {
     borderColor: scheme.borderColor,
     cursorColor: scheme.cursorColor,
     css: `
-    ${config.css || ''}
-    .tab_tab {
-      border: none;
-      color: ${scheme.inactiveTabTitleColor};
-    }
-    .tab_tab.tab_active {
-      color: ${scheme.activeTabTitleColor};
-    }
-    .tabs_title {
-      color: ${scheme.activeTabTitleColor};
-    }
-    .hyper_main {
-      border: none;
-    }
-    .tabs_borderShim {
-      display: none;
-    }
-    .tab_tab.tab_active::before {
-      transform: scaleX(1);
-      transition: all 300ms cubic-bezier(0.0, 0.0, 0.2, 1)
-    }
-    .tab_textInner {
-      text-overflow: ellipsis;
-      overflow: hidden;
-      max-width: 100%;
-      padding: 0px 24px 0 8px;
-    }
-    .tabs_nav .tab_tab .tab_icon {
-      border-radius: 2px;
-    }
-    .term_fit:not(.term_term) {
-      opacity: 0.6;
-    }
-    .term_fit.term_active {
-      opacity: 1;
-      transition: opacity 0.12s ease-in-out;
-      will-change: opacity;
-    }
-    ${
-      // left close button
-      materialBox.closeOnTheLeft === true ?
-          '.tab_tab .tab_icon { left: 7px; right: initial; }' :
-          ''
-    }
-    ${
-      // auto hide title
-      materialBox.autoHideTitle === true ?
-          '.tabs_title { display: none !important; }' :
-          ''
-    }
-    ${
-      // highlight active tab
-      materialBox.highlightActiveTab === true ? `
-      .tab_active {
-        background-color: ${
-                            colorJS(scheme.backgroundColor).dark() === true ?
-                                colorJS(scheme.backgroundColor).lighten(0.3) :
-                                colorJS(scheme.backgroundColor).darken(0.1)
-                          };
+      ${config.css || ''}
+      .tab_tab {
+        color: ${scheme.inactiveTabTitleColor};
+      }
+      .tab_tab.tab_active {
+        color: ${scheme.activeTabTitleColor};
+      }
+      .tabs_title {
+        color: ${scheme.activeTabTitleColor};
+      }
+      .hyper_main {
+        border: none;
+      }
+      .tabs_borderShim {
+        display: none;
+      }
+      .tab_tab.tab_active::before {
+        transform: scaleX(1);
+        transition: all 300ms cubic-bezier(0.0, 0.0, 0.2, 1)
+      }
+      .tab_textInner {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 100%;
+        padding: 0px 24px 0 8px;
+      }
+      .tabs_nav .tab_tab .tab_icon {
+        border-radius: 2px;
+      }
+      .term_fit:not(.term_term) {
+        opacity: 0.6;
+      }
+      .term_fit.term_active {
+        opacity: 1;
+        transition: opacity 0.12s ease-in-out;
+        will-change: opacity;
+      }
+      ${
+        // left close button
+        materialBox.closeOnTheLeft === true ?
+            '.tab_tab .tab_icon { left: 7px; right: initial; }' :
+            ''
+      }
+      ${
+        // auto hide title
+        materialBox.autoHideTitle === true ?
+            '.tabs_title { display: none !important; }' :
+            ''
+      }
+      ${
+        // highlight active tab
+        materialBox.highlightActiveTab === true ? `
+        .tab_active {
+          background-color: ${
+                              colorJS(scheme.backgroundColor).dark() === true ?
+                                  colorJS(scheme.backgroundColor).lighten(0.3) :
+                                  colorJS(scheme.backgroundColor).darken(0.1)
+                            };
 
-      }` :
-                                                ''
-    }
-    ${
-      // hide traffic lights
-      materialBox.hideTrafficLights === true ? `
-      .tabs_borderShim { display: none; }
-      .tabs_list { margin-left: -1px; }` :
-                                               ''
-    }
-    ${tabStyle}
-    ${scheme.css || ''}
-    `,
+        }` :
+                                                  ''
+      }
+      ${
+        // hide traffic lights
+        materialBox.hideTrafficLights === true ? `
+        .tabs_borderShim { display: none; }
+        .tabs_list { margin-left: -1px; }` :
+                                                 ''
+      }
+      ${tabStyle}
+      ${scheme.css || ''}
+      `,
     termCSS: `
-    ${config.termCSS || ''}
-    .cursor-node[focus=true] {
-      mix-blend-mode: difference;
-    }
-    ::-webkit-scrollbar {
-      width: 2px;
-    }
-    ::-webkit-scrollbar-thumb {
-      border-radius: 0px;
-      background-color: ${scheme.accentColor};
-    }
-    x-screen x-row { font-variant-ligatures: contextual; }
-    ${scheme.termCSS || ''}
-    `,
+      ${config.termCSS || ''}
+      .cursor-node[focus=true] {
+        mix-blend-mode: difference;
+      }
+      ::-webkit-scrollbar {
+        width: 2px;
+      }
+      ::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+        background-color: ${scheme.accentColor};
+      }
+      x-screen x-row { font-variant-ligatures: contextual; }
+      ${scheme.termCSS || ''}
+      `,
   });
 };
