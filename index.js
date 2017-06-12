@@ -67,17 +67,17 @@ exports.decorateConfig = config => {
       (config.materialBox ? config.materialBox.user : {}));
   schemeIndex.user = materialBox.user;
 
-  // Get scheme
+  // Get Color Scheme
   const scheme = Object.assign(
       schemeIndex[materialBox.scheme.toLowerCase()] ||
           schemeIndex['solarized-dark'],
       (config.materialBox ? config.materialBox.user : {}));
 
-  // Background opacity
+  // Background Opacity
   scheme.backgroundColor = colorJS(scheme.backgroundColor)
                                .alpha(materialBox.backgroundOpacity)
                                .string();
-  // Background vibrancy
+  // Background Vibrancy
   if (materialBox.backgroundVibrancy === true) {
     if (colorJS(scheme.backgroundColor).light() === true) {
       exports.onWindow = browserWindow => browserWindow.setVibrancy('light');
@@ -86,7 +86,7 @@ exports.decorateConfig = config => {
     }
   }
 
-  // Hide traffic-lights
+  // Hide Traffic-Lights
   if (materialBox.hideTrafficLights === true) {
     exports.decorateBrowserOptions = config => {
       return Object.assign({}, config, {
@@ -96,7 +96,7 @@ exports.decorateConfig = config => {
     };
   }
 
-  // Selected tab flavor
+  // Selected Tab Flavor
   const lightEffect =
       (materialBox.lightEffect ? `box-shadow: 0 0 10px ${scheme.accentColor};` :
                                  '');
@@ -220,35 +220,37 @@ exports.decorateConfig = config => {
         will-change: opacity;
       }
       ${
-        // left close button
+        // Left Close Button
         materialBox.closeOnTheLeft === true ?
             '.tab_tab .tab_icon { left: 7px; right: initial; }' :
             ''
       }
       ${
-        // auto hide title
+        // Auto Hide Title
         materialBox.autoHideTitle === true ?
             '.tabs_title { display: none !important; }' :
             ''
       }
       ${
-        // highlight selected tab
+        // Highlight Selected Tab
         materialBox.highlightSelectedTab === true ? `
-        .tab_active {
-          background-color: ${
-                              colorJS(scheme.backgroundColor).dark() === true ?
-                                  colorJS(scheme.backgroundColor).lighten(0.3) :
-                                  colorJS(scheme.backgroundColor).darken(0.1)
-                            };
+          .tab_active {
+            background-color: ${
+                                colorJS(scheme.backgroundColor).dark() ===
+                                        true ?
+                                    colorJS(scheme.backgroundColor)
+                                        .lighten(0.3) :
+                                    colorJS(scheme.backgroundColor).darken(0.1)
+                              };
 
-        }` :
+          }` :
                                                     ''
       }
       ${
-        // hide traffic lights
+        // Hide Traffic Lights
         materialBox.hideTrafficLights === true ? `
-        .tabs_borderShim { display: none; }
-        .tabs_list { margin-left: -1px; }` :
+          .tabs_borderShim { display: none; }
+          .tabs_list { margin-left: -1px; }` :
                                                  ''
       }
       ${tabFlavor}
