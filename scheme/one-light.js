@@ -24,7 +24,7 @@ module.exports = {
   backgroundColor: '#FAFAFA',
   foregroundColor: '#383A42',
   cursorColor: '#526FFF',
-  borderColor: 'transparent',
+  borderColor: '#EDEDED',
 
   // Accent color
   accentColor: '#526FFF',

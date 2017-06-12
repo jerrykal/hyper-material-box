@@ -21,10 +21,10 @@ module.exports = {
   },
 
   // Default
-  foregroundColor: '#F8F8F2',
   backgroundColor: '#282A36',
+  foregroundColor: '#F8F8F2',
   cursorColor: '#FFF',
-  borderColor: 'transparent',
+  borderColor: '#323440',
 
   // Accent color
   accentColor: '#6272A4',
