@@ -25,7 +25,7 @@ Done :tada:
 
 You can add the following scripts to your `.hyper.js`, if you like what you see.
 
-#### :wrench: Color scheme
+#### :wrench: Color Scheme
 
 > The default color scheme is `solarized-dark`.
 
@@ -116,8 +116,8 @@ module.exports = {
         accentColor: '#80CBC4',
 
         // Other (optional, it will be override by foregroundColor)
-        inactiveTabTitleColor: 'rgba(255, 255, 255, 0.2)',
-        activeTabTitleColor: '#EEFFFF',
+        tabTitleColor: 'rgba(255, 255, 255, 0.2)',
+        selectedTabTitleColor: '#EEFFFF',
 
         // css (optional)
         css: '',
@@ -128,17 +128,17 @@ module.exports = {
 }
 ```
 
-#### :wrench: Active tab style
+#### :wrench: Selected Tab Flavor
 
-> The default active tab style is `underline`.
+> The default selected tab flavor is `underline`.
 
-You can change the Active tab style by set the `activeTabStyle` to `preline`, `overline`, `filled` or `none`:
+You can change the selected tab flavor by set the `selectedTabFlavor` to `preline`, `overline`, `filled` or `none`:
 
 ``` javascript
 module.exports = {
   config: {
     materialBox: {
-      activeTabStyle: 'preline',
+      selectedTabFlavor: 'preline',
     }
   }
 }
@@ -150,7 +150,7 @@ module.exports = {
 module.exports = {
   config: {
     materialBox: {
-      activeTabStyle: 'overline',
+      selectedTabFlavor: 'overline',
     }
   }
 }
@@ -162,7 +162,7 @@ module.exports = {
 module.exports = {
   config: {
     materialBox: {
-      activeTabStyle: 'filled',
+      selectedTabFlavor: 'filled',
     }
   }
 }
@@ -174,7 +174,7 @@ module.exports = {
 module.exports = {
   config: {
     materialBox: {
-      activeTabStyle: 'none',
+      selectedTabFlavor: 'none',
     }
   }
 }
@@ -182,17 +182,17 @@ module.exports = {
 
 ![none_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/none_tab_style.png)
 
-##### :wrench: Highlight active tab
+##### :wrench: Highlight Selected Tab
 
-> highlight active tab is disable by default
+> highlight selected tab is disable by default
 
-You can enable the highlight active tab by set `highlightActiveTab` to `true`:
+You can highlight the selected tab by set `highlightSelectedTab` to `true`:
 
 ``` javascript
 module.exports = {
   config: {
     materialBox: {
-      highlightActiveTab: true,
+      highlightSelectedTab: true,
     }
   }
 }
@@ -200,7 +200,7 @@ module.exports = {
 
 ![highlight_active_tab](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/highlight_active_tab.png)
 
-##### :wrench: Accent color
+##### :wrench: Accent Color
 
 You can change the accent color by set the `user: { accentColor }` to another color:
 
@@ -218,9 +218,9 @@ module.exports = {
 
 ![accent_color_red](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/accent_color_red.png)
 
-##### :wrench: Light effect
+##### :wrench: Light Effect
 
-> The `overline` active tab styles doesn't support light effect.
+> The `overline` selected tab flavors doesn't support light effect.
 
 You can enable the light effect by set the `lightEffect` to `true`:
 
@@ -236,7 +236,7 @@ module.exports = {
 
 ![light_effect](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/light_effect.png)
 
-#### :wrench: Background opacity
+#### :wrench: Background Opacity
 
 > The default background opacity is `1.0`.
 
@@ -272,7 +272,7 @@ module.exports = {
 
 ![background_vibrancy](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/background_vibrancy.png)
 
-### :wrench: Auto hide title
+### :wrench: Auto Hide Title
 
 > auto hide title is disable by default
 
@@ -290,7 +290,7 @@ module.exports = {
 
 ![auto_hide_title](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/auto_hide_title.png)
 
-### :wrench: Hide traffic-lights
+### :wrench: Hide Traffic-Lights
 
 > hide traffic light is disable by default
 
@@ -310,7 +310,7 @@ module.exports = {
 
 ### :wrench: Other
 
-#### :wrench: Left close button
+#### :wrench: Left Close Button
 
 > left close button is disable by default
 
@@ -348,9 +348,9 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 :zap: The `nord` color scheme inspired by [**arcticicestudio/nord-hyper**](https://github.com/arcticicestudio/nord-hyper)  
 :zap: The `one-dark` color scheme inspired by [**atom/one-dark-syntax**](https://github.com/atom/one-dark-syntax/)  
 :zap: The `one-light` color scheme inspired by [**atom/one-light-syntax**](https://github.com/atom/one-light-syntax/)  
-:zap: The `overline` active tab style inspired by [**pauldariye/hyper-midnight**](https://github.com/pauldariye/hyper-midnight).  
+:zap: The `overline` selected tab flavor inspired by [**pauldariye/hyper-midnight**](https://github.com/pauldariye/hyper-midnight)  
 :zap: The `predawn` color scheme inspired by [**jamiewilson/predawn-hyperterm**](https://github.com/jamiewilson/predawn-hyperterm)  
-:zap: The `preline` active tab style inspired by [**Kikobeats/hyper-flat**](https://github.com/kikobeats/hyper-flat).  
+:zap: The `preline` selected tab flavor inspired by [**Kikobeats/hyper-flat**](https://github.com/kikobeats/hyper-flat)  
 :zap: The `seti` color scheme inspired by [**jesseweed/seti-syntax**](https://github.com/jesseweed/seti-syntax)  
 :zap: The `solarized` color scheme faimly inspired by [**Solarized - Ethan Schoonover**](http://ethanschoonover.com/solarized)  
 :zap: The `tomorrow` color scheme family inspired by [**chriskempson/tomorrow-theme**](https://github.com/chriskempson/tomorrow-theme)  
