@@ -200,6 +200,24 @@ module.exports = {
 
 ![highlight_active_tab](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/highlight_active_tab.png)
 
+##### :wrench: Display Border
+
+> The `border` is hide by default.
+
+You can enable the border by set the `displayBorder` to `true`:
+
+``` javascript
+module.exports = {
+  config: {
+    materialBox: {
+      displayBorder: true,
+    }
+  }
+}
+```
+
+![display_border](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/display_border.png)
+
 ##### :wrench: Accent Color
 
 You can change the accent color by set the `user: { accentColor }` to another color:

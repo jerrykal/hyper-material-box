@@ -44,6 +44,7 @@ exports.decorateConfig = config => {
         backgroundVibrancy: false,
         closeOnTheLeft: false,
         selectedTabFlavor: 'underline',
+        displayBorder: false,
         hideTrafficLights: false,
         lightEffect: false,
         autoHideTitle: false,
@@ -107,9 +108,6 @@ exports.decorateConfig = config => {
     }
     case 'preline': {
       tabFlavor = `
-        .tab_tab {
-          border: none;
-        }
         .tab_tab::after {
           content: "";
           position: absolute;
@@ -134,9 +132,6 @@ exports.decorateConfig = config => {
     }
     case 'overline': {
       tabFlavor = `
-        .tab_tab {
-          border: none;
-        }
         .tab_tab.tab_active {
           border-top: 2px solid ${scheme.accentColor} !important;
         }`;
@@ -144,9 +139,6 @@ exports.decorateConfig = config => {
     }
     case 'filled': {
       tabFlavor = `
-        .tab_tab {
-          border: none;
-        }
         .tab_tab.tab_active,
         .tabs_title {
           background: ${scheme.accentColor};
@@ -156,9 +148,6 @@ exports.decorateConfig = config => {
     }
     default: {
       tabFlavor = `
-        .tab_tab {
-          border: none;
-        }
         .tab_tab::before {
           content: '';
           position: absolute;
@@ -194,9 +183,6 @@ exports.decorateConfig = config => {
       }
       .hyper_main {
         border: none;
-      }
-      .tabs_borderShim {
-        display: none;
       }
       .tab_tab.tab_active::before {
         transform: scaleX(1);
@@ -245,6 +231,17 @@ exports.decorateConfig = config => {
 
           }` :
                                                     ''
+      }
+      ${
+        // Display Border
+        materialBox.displayBorder === false ? `
+          .tab_tab {
+            border: none;
+          }
+          .tabs_borderShim {
+            display: none;
+          }` :
+                                              ''
       }
       ${
         // Hide Traffic Lights
