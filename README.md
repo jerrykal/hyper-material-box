@@ -144,7 +144,7 @@ module.exports = {
 }
 ```
 
-![preline_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/preline_tab_style.png)
+![preline_tab_flavor](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/preline_tab_flavor.png)
 
 ``` javascript
 module.exports = {
@@ -156,7 +156,7 @@ module.exports = {
 }
 ```
 
-![overline_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/overline_tab_style.png)
+![overline_tab_flavor](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/overline_tab_flavor.png)
 
 ``` javascript
 module.exports = {
@@ -168,7 +168,7 @@ module.exports = {
 }
 ```
 
-![filled_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/filled_tab_style.png)
+![filled_tab_flavor](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/filled_tab_flavor.png)
 
 ``` javascript
 module.exports = {
@@ -180,7 +180,7 @@ module.exports = {
 }
 ```
 
-![none_tab_style](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/none_tab_style.png)
+![none_tab_flavor](https://raw.githubusercontent.com/ooJerryLeeoo/hyper-material-box/master/assets/none_tab_flavor.png)
 
 ##### :wrench: Highlight Selected Tab
 
