@@ -30,6 +30,6 @@ module.exports = {
   accentColor: '#6272A4',
 
   // Other
-  inactiveTabTitleColor: 'rgba(255, 255, 255, 0.2)',
-  activeTabTitleColor: '#FFF',
+  tabTitleColor: 'rgba(255, 255, 255, 0.2)',
+  selectedTabTitleColor: '#FFF',
 };

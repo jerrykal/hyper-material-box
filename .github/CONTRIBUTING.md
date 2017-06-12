@@ -54,8 +54,8 @@ module.exports = {
   accentColor: '...',
 
   // Other (optional, it will be override by foregroundColor)
-  inactiveTabTitleColor: '...',
-  activeTabTitleColor: '...',
+  tabTitleColor: '...',
+  selectedTabTitleColor: '...',
 
   // css (optional)
   css: '...',

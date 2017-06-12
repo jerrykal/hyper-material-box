@@ -43,11 +43,11 @@ exports.decorateConfig = config => {
         backgroundOpacity: 1,
         backgroundVibrancy: false,
         closeOnTheLeft: false,
-        activeTabStyle: 'underline',
+        selectedTabFlavor: 'underline',
         hideTrafficLights: false,
         lightEffect: false,
         autoHideTitle: false,
-        highlightActiveTab: false,
+        highlightSelectedTab: false,
       },
       config.materialBox);
 
@@ -59,10 +59,10 @@ exports.decorateConfig = config => {
         cursorColor: config.cursorColor,
         borderColor: config.borderColor,
         accentColor: config.colors.blue,
-        inactiveTabTitleColor: config.inactiveTabTitleColor ||
+        tabTitleColor: config.tabTitleColor ||
             colorJS(config.foregroundColor).alpha(0.3).string(),
-        activeTabTitleColor:
-            config.activeTabTitleColor || config.foregroundColor,
+        selectedTabTitleColor:
+            config.selectedTabTitleColor || config.foregroundColor,
       },
       (config.materialBox ? config.materialBox.user : {}));
   schemeIndex.user = materialBox.user;
@@ -96,17 +96,17 @@ exports.decorateConfig = config => {
     };
   }
 
-  // Active tab style
+  // Selected tab flavor
   const lightEffect =
       (materialBox.lightEffect ? `box-shadow: 0 0 10px ${scheme.accentColor};` :
                                  '');
-  let tabStyle = '';
-  switch (materialBox.activeTabStyle.toLowerCase()) {
+  let tabFlavor = '';
+  switch (materialBox.selectedTabFlavor.toLowerCase()) {
     case 'none': {
       break;
     }
     case 'preline': {
-      tabStyle = `
+      tabFlavor = `
         .tab_tab {
           border: none;
         }
@@ -133,7 +133,7 @@ exports.decorateConfig = config => {
       break;
     }
     case 'overline': {
-      tabStyle = `
+      tabFlavor = `
         .tab_tab {
           border: none;
         }
@@ -143,7 +143,7 @@ exports.decorateConfig = config => {
       break;
     }
     case 'filled': {
-      tabStyle = `
+      tabFlavor = `
         .tab_tab {
           border: none;
         }
@@ -155,7 +155,7 @@ exports.decorateConfig = config => {
       break;
     }
     default: {
-      tabStyle = `
+      tabFlavor = `
         .tab_tab {
           border: none;
         }
@@ -184,13 +184,13 @@ exports.decorateConfig = config => {
     css: `
       ${config.css || ''}
       .tab_tab {
-        color: ${scheme.inactiveTabTitleColor};
+        color: ${scheme.tabTitleColor};
       }
       .tab_tab.tab_active {
-        color: ${scheme.activeTabTitleColor};
+        color: ${scheme.selectedTabTitleColor};
       }
       .tabs_title {
-        color: ${scheme.activeTabTitleColor};
+        color: ${scheme.selectedTabTitleColor};
       }
       .hyper_main {
         border: none;
@@ -232,8 +232,8 @@ exports.decorateConfig = config => {
             ''
       }
       ${
-        // highlight active tab
-        materialBox.highlightActiveTab === true ? `
+        // highlight selected tab
+        materialBox.highlightSelectedTab === true ? `
         .tab_active {
           background-color: ${
                               colorJS(scheme.backgroundColor).dark() === true ?
@@ -242,7 +242,7 @@ exports.decorateConfig = config => {
                             };
 
         }` :
-                                                  ''
+                                                    ''
       }
       ${
         // hide traffic lights
@@ -251,7 +251,7 @@ exports.decorateConfig = config => {
         .tabs_list { margin-left: -1px; }` :
                                                  ''
       }
-      ${tabStyle}
+      ${tabFlavor}
       ${scheme.css || ''}
       `,
     termCSS: `
