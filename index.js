@@ -258,13 +258,6 @@ exports.decorateConfig = config => {
       .cursor-node[focus=true] {
         mix-blend-mode: difference;
       }
-      ::-webkit-scrollbar {
-        width: 2px;
-      }
-      ::-webkit-scrollbar-thumb {
-        border-radius: 0px;
-        background-color: ${scheme.accentColor};
-      }
       x-screen x-row { font-variant-ligatures: contextual; }
       ${scheme.termCSS || ''}
       `,
