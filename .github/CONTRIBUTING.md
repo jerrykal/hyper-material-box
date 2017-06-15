@@ -69,5 +69,6 @@ module.exports = {
 :zap: The `your-scheme-name` color scheme contributed by [**@yourGitHubUserName**](https://github.com/yourGitHubUserName)  
 ```
 6. Add your color scheme to the :point_right: [keywords](https://github.com/ooJerryLeeoo/hyper-material-box/blob/master/package.json#L6) (**ALPHABETICAL** order)
+7. Submit a pull request
 
 Cheers :beers:
