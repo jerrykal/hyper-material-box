@@ -29,7 +29,7 @@ You can add the following scripts to your `.hyper.js`, if you like what you see.
 
 > The default color scheme is `solarized-dark`.
 
-Currently, we provide our user over **29** beautiful color schemes (click the name to see the screenshot):
+Currently, we provide our user over **30** beautiful color schemes (click the name to see the screenshot):
 
 * [80rave](assets/scheme/80rave.png)
 * [apex](assets/scheme/apex.png)
@@ -370,6 +370,7 @@ You can contribute your own color scheme to this project, see the [CONTRIBUTING.
 :zap: The `predawn` color scheme inspired by [**jamiewilson/predawn-hyperterm**](https://github.com/jamiewilson/predawn-hyperterm)  
 :zap: The `preline` selected tab flavor inspired by [**Kikobeats/hyper-flat**](https://github.com/kikobeats/hyper-flat)  
 :zap: The `seti` color scheme inspired by [**jesseweed/seti-syntax**](https://github.com/jesseweed/seti-syntax)  
+:zap: The `snazzy` color scheme contributed by [**@stoe**](https://github.com/stoe)  
 :zap: The `solarized` color scheme faimly inspired by [**Solarized - Ethan Schoonover**](http://ethanschoonover.com/solarized)  
 :zap: The `tomorrow` color scheme family inspired by [**chriskempson/tomorrow-theme**](https://github.com/chriskempson/tomorrow-theme)  
 
