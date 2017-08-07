@@ -53,6 +53,7 @@ Currently, we provide our user over **30** beautiful color schemes (click the na
 * [one-light](assets/scheme/one-light.png)
 * [predawn](assets/scheme/predawn.png)
 * [seti](assets/scheme/seti.png)
+* [snazzy](assets/scheme/snazzy.png)
 * [solarized-dark](assets/scheme/solarized-dark.png)
 * [solarized-light](assets/scheme/solarized-light.png)
 * [tomorrow](assets/scheme/tomorrow.png)
