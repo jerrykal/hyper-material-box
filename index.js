@@ -199,7 +199,7 @@ exports.decorateConfig = config => {
         border-radius: 2px;
       }
       .term_fit:not(.term_term) {
-        opacity: 0.6;
+        opacity: 1.0;
       }
       .term_fit.term_active {
         opacity: 1;
